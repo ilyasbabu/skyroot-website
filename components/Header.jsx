@@ -5,6 +5,12 @@ import Image from "next/image"
 import { useState } from "react"
 
 
+const Menu = ({ name, link }) => {
+    return (
+        <li className="flex items-center"><Link rel="noopener noreferrer" href={link} className="flex items-center px-4  hover:text-blue-400">{name}</Link></li>
+    )
+}
+
 const DropMenu = ({ name, links }) => {
     return (
         <li className="flex items-center">
@@ -27,45 +33,31 @@ const DropMenu = ({ name, links }) => {
     )
 }
 
-const Menu = ({ name, link }) => {
-    return (
-        <li className="flex"><Link rel="noopener noreferrer" href={link} className="flex items-center px-4 -mb-1 hover:text-blue-400">{name}</Link></li>
-    )
-}
-
 const MobileMenu = ({ name, link }) => {
     return (
-        <li className="flex"><Link rel="noopener noreferrer" href={link} className="flex items-center px-4 -mb-1 border-b-2 dark:border-transparent">{name}</Link></li>
+        <li className="flex"><Link rel="noopener noreferrer" href={link} className="flex w-full items-center px-4 hover:text-blue-500">{name}</Link></li>
     )
 }
 
-const MobileDropMenu = () => {
+const MobileDropMenu = ({ name, links }) => {
+    let [open, setOpen] = useState(false);
     return (
-        <li>
-            <div className="group relative cursor-pointer px-4 -mb-1">
-                <div className="flex items-center md:justify-between space-x-3 ">
-                    <a className="menu-hover  ">
-                        {"link.name"}
-                    </a>
-                    <span>
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor"
-                            className="h-5 w-5 group-hover:rotate-180 transition-all">
-                            <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" /></svg>
-                    </span>
-                </div>
-                <div
-                    className="invisible absolute z-50 flex w-full flex-col bg-white py-1 px-1 shadow-xl group-hover:visible">
-                    <Link href={"item.link"} key={"item.name"} className="my-2 block  py-1 hover:text-blue-400 md:mx-2"
-                    >{"item.name"}</Link>
-                    <Link href={"item.link"} key={"item.name"} className="my-2 block  py-1 hover:text-blue-400 md:mx-2"
-                    >{"item.name"}</Link>
-                    <Link href={"item.link"} key={"item.name"} className="my-2 block  py-1 hover:text-blue-400 md:mx-2"
-                    >{"item.name"}</Link>
-                    <Link href={"item.link"} key={"item.name"} className="my-2 block  py-1 hover:text-blue-400 md:mx-2"
-                    >{"item.name"}</Link>
-                </div>
-            </div>
-        </li>
+        <>
+            <li className="flex" onClick={() => { setOpen(!open) }}>
+                <p className="flex items-center w-full px-4 hover:text-blue-500">{name}
+                </p>
+                <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor"
+                        className={`h-5 w-5 mr-4 transition-all ${open?"rotate-180":""}`}>
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" /></svg>
+                </span>
+            </li>
+            {links.map((item) => (
+                <li className={`${open?"flex":"hidden"}`}>
+                    <Link rel="noopener noreferrer" href={item.link} className="flex items-center w-full px-4 hover:text-blue-500">{item.name}</Link>
+                </li>
+            ))}
+        </>
     )
 }
 
@@ -113,7 +105,7 @@ const Header = () => {
             </div>
 
             {/* Mobile Menu */}
-            <ul className={`md:hidden absolute bg-white w-full left-0 md:z-auto z-[-1] space-y-6 px-3 py-4 transition-all ease-in duration-200 ${open ? "top-20 opacity-100" : "top-[-300px] opacity-0"}`}>
+            <ul className={`md:hidden absolute bg-white shadow w-full left-0 md:z-auto z-[-1] space-y-6 px-3 py-4 transition-all ease-in duration-300 ${open ? "top-20 opacity-100" : "top-[-400px] opacity-0"}`}>
                 <MobileMenu name={"Home"} link={"/"} />
                 <MobileMenu name={"About"} link={"/about"} />
                 <MobileMenu name={"Contact"} link={"/contact"} />
