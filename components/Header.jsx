@@ -53,7 +53,7 @@ const MobileDropMenu = ({ name, links }) => {
                 </span>
             </li>
             {links.map((item) => (
-                <li className={`${open?"flex":"hidden"}`}>
+                <li key={item.name} className={`${open?"flex":"hidden"}`}>
                     <Link rel="noopener noreferrer" href={item.link} className="flex items-center w-full px-4 hover:text-blue-500">{item.name}</Link>
                 </li>
             ))}
