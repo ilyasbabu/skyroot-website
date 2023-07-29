@@ -6,7 +6,7 @@ export default function Home() {
     <>
       <section className="bg-gray-200 text-gray-800">
         <div className="container flex flex-col mx-auto lg:flex-row">
-          <div className="w-full lg:w-1/3 mix-blend-multiply" style={{ backgroundImage: "url('/images/1a.jpeg')", backgroundPosition: 'center center', backgroundSize: 'cover' }}></div>
+          <div className="w-full lg:w-1/3 mix-blend-multiply" style={{ backgroundImage: "url('/images/1b.jpeg')", backgroundPosition: 'center center', backgroundSize: 'cover' }}></div>
           <div className="flex flex-col w-full p-6 lg:w-2/3 md:p-8 lg:p-12">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-8 h-8 mb-8 text-sky-600">
               <path fillRule="evenodd" d="M2.166 4.999A11.954 11.954 0 0010 1.944 11.954 11.954 0 0017.834 5c.11.65.166 1.32.166 2.001 0 5.225-3.34 9.67-8 11.317C5.34 16.67 2 12.225 2 7c0-.682.057-1.35.166-2.001zm11.541 3.708a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
@@ -30,7 +30,8 @@ export default function Home() {
       <section className="bg-gray-100 text-gray-800">
         <div className="container max-w-6xl p-6 mx-auto space-y-6 sm:space-y-12">
           <div rel="noopener noreferrer" href="#" className="block max-w-sm gap-3 mx-auto sm:max-w-full group hover:no-underline focus:no-underline lg:grid lg:grid-cols-12 bg-gray-50">
-            <img src="https://source.unsplash.com/random/480x360" alt="" className="object-cover w-full h-64 rounded sm:h-96 lg:col-span-7 bg-gray-500" />
+          {/* https://source.unsplash.com/random/480x360 */}
+            <img src="/images/3.jpg" alt="/images/3.jpg" className="object-cover w-full h-64 rounded sm:h-96 lg:col-span-7 bg-gray-500" />
             <div className="p-6 space-y-2 lg:col-span-5">
               <h3 className="text-2xl font-semibold sm:text-4xl group-hover:underline group-focus:underline">Certificate Attestation</h3>
               <p className='line-clamp-3 sm:line-clamp-6'>Attestation is a legal acknowledgment of evaluating the authenticity of educational and non-educational documents from home country to certify it’s genuinity.Normally Indian Government provides two types of attestation in Indian Certificates. One is Apostille attestation by MEA i.e. Ministry of External affairs and the other one is by the concerned Embassy of the hosting country.</p>
@@ -44,7 +45,7 @@ export default function Home() {
           </div>
           <div className="grid justify-center grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
             <div rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-gray-50">
-              <img role="presentation" className="object-cover w-full rounded h-44 bg-gray-500" src="https://source.unsplash.com/random/480x360?1" />
+              <img role="presentation" className="object-cover w-full rounded h-44 bg-gray-500" src="/images/4.jpg" />
               <div className="p-6 space-y-2">
                 <h3 className="text-2xl font-semibold group-hover:underline group-focus:underline">MEA / Appostile</h3>
                 <p className='line-clamp-3'>MEA(Ministry of External Affairs) is a central government body which communicates international affairs.Only the MEA can do the Apostille attestation and Embassy approved attestation on the certificates. The documents which have been used in other nations require the MEA Attestation should be first authenticated by designated authorities of State/Union territory from where the document is issued</p>
@@ -57,7 +58,7 @@ export default function Home() {
               </div>
             </div>
             <div rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-gray-50">
-              <img role="presentation" className="object-cover w-full rounded h-44 bg-gray-500" src="https://source.unsplash.com/random/480x360?2" />
+              <img role="presentation" className="object-cover w-full rounded h-44 bg-gray-500" src="images/6.jpg" />
               <div className="p-6 space-y-2">
                 <h3 className="text-2xl font-semibold group-hover:underline group-focus:underline">PCC</h3>
                 <p className='line-clamp-3'>PCC means Police Clearance Certificate is a certificate issued by respective police authority/ police experts regarding the criminal status of a person. It is a confirmation issued by the nation of origin that the person is devoid of any criminal records or in any violations of legal code and rules of the nation. Criminal records may incorporate arrest, capture, conviction and conceivably court procedures. Simply, Police clearance certificate is a good conduct certificate issued by police authority of the nation of origin. It is called variously in each nation as police certificate, good conduct certificates, judicial records extracts, PCC, etc. PCC is a document required when you are planning to travel abroad for education or employment purposes.</p>
@@ -70,7 +71,7 @@ export default function Home() {
               </div>
             </div>
             <div rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-gray-50">
-              <img role="presentation" className="object-cover w-full rounded h-44 bg-gray-500" src="https://source.unsplash.com/random/480x360?3" />
+              <img role="presentation" className="object-cover w-full rounded h-44 bg-gray-500" src="images/5.png" />
               <div className="p-6 space-y-2">
                 <h3 className="text-2xl font-semibold group-hover:underline group-focus:underline">Visa Stamping</h3>
                 <p className='line-clamp-3'>Visa, an official entry authorization to enter the territory and have to be used within a certain period of time. The authorization may be a document subject to permission of an immigration official at the time of entry, commonly it is a stamp endorsed in applicant’s passport.</p>
