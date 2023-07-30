@@ -21,17 +21,16 @@ export default function Home() {
       <section className="py-6 sm:py-12 bg-gray-50 text-gray-800">
         <div className="container p-6 mx-auto space-y-8">
           <div className="space-y-2 text-center">
-            <h2 className="text-3xl font-bold">Our Quality Servces Includes</h2>
-            <p className="font-serif text-sm text-gray-600">Trust our expertise to navigate the complexities of certificate attestation and take your dreams across borders.</p>
+            <h2 className="text-4xl font-bold">Our Quality Servces Includes</h2>
+            <p className="font-serif text-base text-gray-600">Trust our expertise to navigate the complexities of certificate attestation and take your dreams across borders.</p>
           </div>
         </div>
       </section>
 
       <section className="bg-gray-100 text-gray-800">
         <div className="container max-w-6xl p-6 mx-auto space-y-6 sm:space-y-12">
-          <div rel="noopener noreferrer" href="#" className="block max-w-sm gap-3 mx-auto sm:max-w-full group hover:no-underline focus:no-underline lg:grid lg:grid-cols-12 bg-gray-50">
-          {/* https://source.unsplash.com/random/480x360 */}
-            <img src="/images/3.jpg" alt="/images/3.jpg" className="object-cover w-full h-64 rounded sm:h-96 lg:col-span-7 bg-gray-500" />
+          <div className="block max-w-sm gap-3 mx-auto sm:max-w-full group hover:no-underline focus:no-underline lg:grid lg:grid-cols-12 bg-gray-50">
+            <img src="/images/3.jpg" alt="Certificate Attestation" className="object-cover w-full h-64 rounded sm:h-96 lg:col-span-7 bg-gray-500" />
             <div className="p-6 space-y-2 lg:col-span-5">
               <h3 className="text-2xl font-semibold sm:text-4xl group-hover:underline group-focus:underline">Certificate Attestation</h3>
               <p className='line-clamp-3 sm:line-clamp-6'>Attestation is a legal acknowledgment of evaluating the authenticity of educational and non-educational documents from home country to certify it’s genuinity.Normally Indian Government provides two types of attestation in Indian Certificates. One is Apostille attestation by MEA i.e. Ministry of External affairs and the other one is by the concerned Embassy of the hosting country.</p>
@@ -45,7 +44,7 @@ export default function Home() {
           </div>
           <div className="grid justify-center grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
             <div rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-gray-50">
-              <img role="presentation" className="object-cover w-full rounded h-44 bg-gray-500" src="/images/4.jpg" />
+              <img role="presentation" className="object-cover w-full rounded h-44 bg-gray-500" src="/images/4a.jpeg" />
               <div className="p-6 space-y-2">
                 <h3 className="text-2xl font-semibold group-hover:underline group-focus:underline">MEA / Appostile</h3>
                 <p className='line-clamp-3'>MEA(Ministry of External Affairs) is a central government body which communicates international affairs.Only the MEA can do the Apostille attestation and Embassy approved attestation on the certificates. The documents which have been used in other nations require the MEA Attestation should be first authenticated by designated authorities of State/Union territory from where the document is issued</p>
@@ -58,7 +57,7 @@ export default function Home() {
               </div>
             </div>
             <div rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-gray-50">
-              <img role="presentation" className="object-cover w-full rounded h-44 bg-gray-500" src="images/6.jpg" />
+              <img role="presentation" className="object-cover w-full rounded h-44 bg-gray-500" src="images/6a.jpeg" />
               <div className="p-6 space-y-2">
                 <h3 className="text-2xl font-semibold group-hover:underline group-focus:underline">PCC</h3>
                 <p className='line-clamp-3'>PCC means Police Clearance Certificate is a certificate issued by respective police authority/ police experts regarding the criminal status of a person. It is a confirmation issued by the nation of origin that the person is devoid of any criminal records or in any violations of legal code and rules of the nation. Criminal records may incorporate arrest, capture, conviction and conceivably court procedures. Simply, Police clearance certificate is a good conduct certificate issued by police authority of the nation of origin. It is called variously in each nation as police certificate, good conduct certificates, judicial records extracts, PCC, etc. PCC is a document required when you are planning to travel abroad for education or employment purposes.</p>
@@ -71,7 +70,7 @@ export default function Home() {
               </div>
             </div>
             <div rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-gray-50">
-              <img role="presentation" className="object-cover w-full rounded h-44 bg-gray-500" src="images/5.png" />
+              <img role="presentation" className="object-cover w-full rounded h-44 bg-gray-500" src="images/5a.jpeg" />
               <div className="p-6 space-y-2">
                 <h3 className="text-2xl font-semibold group-hover:underline group-focus:underline">Visa Stamping</h3>
                 <p className='line-clamp-3'>Visa, an official entry authorization to enter the territory and have to be used within a certain period of time. The authorization may be a document subject to permission of an immigration official at the time of entry, commonly it is a stamp endorsed in applicant’s passport.</p>
@@ -267,6 +266,74 @@ export default function Home() {
         <p className='p-3'>
           Skyroots attestation provide assured administrative assistance and service for genuine attestation of your valuable documents with safe handling and prompt delivery.At skyroots our primary target is to provide reliable and professional service on par with the international standards at affordable and competative rates. We currently provide assistance with Embassy attestation HRD,MEA etc
         </p>
+      </section>
+
+
+      <section className="bg-gray-100 text-gray-800">
+        <div className="container flex flex-col items-center mx-auto mb-1 md:p-10 md:px-12">
+          <h1 className="p-4 text-3xl font-semibold leadi text-center">What our customers are saying about us</h1>
+        </div>
+        <div className="container flex flex-col items-center justify-center mx-auto lg:flex-row lg:flex-wrap lg:justify-evenly lg:px-10">
+          <div className="flex flex-col max-w-sm mx-4 my-6 shadow-lg">
+            <div className="px-4 py-12 rounded-t-lg sm:px-8 md:px-12 bg-gray-50">
+              <p className="relative px-6 py-1 text-lg italic text-center text-gray-800">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" className="w-8 h-8 text-sky-600">
+                  <path d="M232,246.857V16H16V416H54.4ZM48,48H200V233.143L48,377.905Z"></path>
+                  <path d="M280,416h38.4L496,246.857V16H280ZM312,48H464V233.143L312,377.905Z"></path>
+                </svg>Thank you for your service.Comparing others your service is very low cost and efficient.Thank you
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" className="absolute right-0 w-8 h-8 text-sky-600">
+                  <path d="M280,185.143V416H496V16H457.6ZM464,384H312V198.857L464,54.1Z"></path>
+                  <path d="M232,16H193.6L16,185.143V416H232ZM200,384H48V198.857L200,54.1Z"></path>
+                </svg>
+              </p>
+            </div>
+            <div className="flex flex-col items-center justify-center p-8 rounded-b-lg bg-sky-600 text-gray-50">
+              <p className="text-xl font-semibold leadi">Sreejith V R</p>
+              <p className="text-sm uppercase">Ernamkulam</p>
+            </div>
+          </div>
+          <div className="flex flex-col max-w-sm mx-4 my-6 shadow-lg">
+            <div className="px-4 py-12 rounded-t-lg sm:px-8 md:px-12 bg-gray-50">
+              <p className="relative px-6 py-1 text-lg italic text-center text-gray-800">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" className="w-8 h-8 text-sky-600">
+                  <path d="M232,246.857V16H16V416H54.4ZM48,48H200V233.143L48,377.905Z"></path>
+                  <path d="M280,416h38.4L496,246.857V16H280ZM312,48H464V233.143L312,377.905Z"></path>
+                </svg>What some of Our Valuable Customers have to say - thank you everyone for the professional service. got the certificate on wed itself well within the time frame promised<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" className="absolute right-0 w-8 h-8 text-sky-600">
+                  <path d="M280,185.143V416H496V16H457.6ZM464,384H312V198.857L464,54.1Z"></path>
+                  <path d="M232,16H193.6L16,185.143V416H232ZM200,384H48V198.857L200,54.1Z"></path>
+                </svg>
+              </p>
+            </div>
+            <div className="flex flex-col items-center justify-center p-8 rounded-b-lg bg-sky-600 text-gray-50">
+              <p className="text-xl font-semibold leadi">Vincy</p>
+              <p className="text-xs uppercase">Kottayam</p>
+            </div>
+          </div>
+          <div className="flex flex-col max-w-sm mx-4 my-6 shadow-lg">
+            <div className="px-4 py-12 rounded-t-lg sm:px-8 md:px-12 bg-gray-50">
+              <p className="relative px-6 py-1 text-lg italic text-center text-gray-800">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" className="w-8 h-8 text-sky-600">
+                  <path d="M232,246.857V16H16V416H54.4ZM48,48H200V233.143L48,377.905Z"></path>
+                  <path d="M280,416h38.4L496,246.857V16H280ZM312,48H464V233.143L312,377.905Z"></path>
+                </svg>Dear Sir,Greetings!!!..I received my attested marriage certificate through courier on 11-Dec-2019. You are appreciated for your service.
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" className="absolute right-0 w-8 h-8 text-sky-600">
+                  <path d="M280,185.143V416H496V16H457.6ZM464,384H312V198.857L464,54.1Z"></path>
+                  <path d="M232,16H193.6L16,185.143V416H232ZM200,384H48V198.857L200,54.1Z"></path>
+                </svg>
+              </p>
+            </div>
+            <div className="flex flex-col items-center justify-center p-8 rounded-b-lg bg-sky-600 text-gray-50">
+              <p className="text-xl font-semibold leadi">Vinoop</p>
+              <p className="text-xs uppercase">Alappuzha</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className='bg-gray-100'>
+        <div className='md:px-12 container mx-auto flex items-center justify-center'>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3929.4539006072223!2d76.28490131388183!3d9.97931357613039!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080de5785368cf%3A0xd8033edf8de83d9d!2sSkyroots+Certificate+Attestation+Kochi!5e0!3m2!1sen!2sin!4v1539504457151" width="100%" height="450" allowFullScreen></iframe>
+        </div>
       </section>
     </>
   )
