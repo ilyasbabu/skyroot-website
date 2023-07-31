@@ -63,7 +63,7 @@ export default function Home() {
       <section className="bg-gray-100 text-gray-800">
         <div className="container max-w-6xl p-6 mx-auto space-y-6 sm:space-y-12">
           <div className="block max-w-sm gap-3 mx-auto sm:max-w-full group hover:no-underline focus:no-underline lg:grid lg:grid-cols-12 bg-gray-50">
-            <img src="/images/3.jpg" alt="Certificate Attestation" className="object-cover w-full h-64 rounded sm:h-96 lg:col-span-7 bg-gray-500" />
+            <Image src="/images/3.jpg" alt="Certificate Attestation" width={500} height={500} className="object-cover w-full h-64 rounded sm:h-96 lg:col-span-7 bg-gray-500" />
             <div className="p-6 space-y-2 lg:col-span-5">
               <h3 className="text-2xl font-semibold sm:text-4xl group-hover:underline group-focus:underline">Certificate Attestation</h3>
               <p className='line-clamp-3 sm:line-clamp-6'>Attestation is a legal acknowledgment of evaluating the authenticity of educational and non-educational documents from home country to certify it’s genuinity.Normally Indian Government provides two types of attestation in Indian Certificates. One is Apostille attestation by MEA i.e. Ministry of External affairs and the other one is by the concerned Embassy of the hosting country.</p>
@@ -77,7 +77,7 @@ export default function Home() {
           </div>
           <div className="grid justify-center grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
             <div rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-gray-50">
-              <img role="presentation" className="object-cover w-full rounded h-44 bg-gray-500" src="/images/4a.jpeg" />
+              <Image role="presentation" width={500} height={500} className="object-cover w-full rounded h-44 bg-gray-500" alt='MEA/ Appostile' src="/images/4a.jpeg" />
               <div className="p-6 space-y-2">
                 <h3 className="text-2xl font-semibold group-hover:underline group-focus:underline">MEA / Appostile</h3>
                 <p className='line-clamp-3'>MEA(Ministry of External Affairs) is a central government body which communicates international affairs.Only the MEA can do the Apostille attestation and Embassy approved attestation on the certificates. The documents which have been used in other nations require the MEA Attestation should be first authenticated by designated authorities of State/Union territory from where the document is issued</p>
@@ -90,7 +90,7 @@ export default function Home() {
               </div>
             </div>
             <div rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-gray-50">
-              <img role="presentation" className="object-cover w-full rounded h-44 bg-gray-500" src="images/6a.jpeg" />
+              <Image role="presentation" width={500} height={500} className="object-cover w-full rounded h-44 bg-gray-500" alt='PCC' src="/images/6a.jpeg" />
               <div className="p-6 space-y-2">
                 <h3 className="text-2xl font-semibold group-hover:underline group-focus:underline">PCC</h3>
                 <p className='line-clamp-3'>PCC means Police Clearance Certificate is a certificate issued by respective police authority/ police experts regarding the criminal status of a person. It is a confirmation issued by the nation of origin that the person is devoid of any criminal records or in any violations of legal code and rules of the nation. Criminal records may incorporate arrest, capture, conviction and conceivably court procedures. Simply, Police clearance certificate is a good conduct certificate issued by police authority of the nation of origin. It is called variously in each nation as police certificate, good conduct certificates, judicial records extracts, PCC, etc. PCC is a document required when you are planning to travel abroad for education or employment purposes.</p>
@@ -103,7 +103,7 @@ export default function Home() {
               </div>
             </div>
             <div rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-gray-50">
-              <img role="presentation" className="object-cover w-full rounded h-44 bg-gray-500" src="images/5a.jpeg" />
+              <Image role="presentation" width={500} height={500} className="object-cover w-full rounded h-44 bg-gray-500" alt='Visa Stamping' src="/images/5a.jpeg" />
               <div className="p-6 space-y-2">
                 <h3 className="text-2xl font-semibold group-hover:underline group-focus:underline">Visa Stamping</h3>
                 <p className='line-clamp-3'>Visa, an official entry authorization to enter the territory and have to be used within a certain period of time. The authorization may be a document subject to permission of an immigration official at the time of entry, commonly it is a stamp endorsed in applicant’s passport.</p>
@@ -281,6 +281,96 @@ export default function Home() {
       <section className='bg-gray-100'>
         <div className='md:px-12 container mx-auto flex items-center justify-center'>
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3929.4539006072223!2d76.28490131388183!3d9.97931357613039!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080de5785368cf%3A0xd8033edf8de83d9d!2sSkyroots+Certificate+Attestation+Kochi!5e0!3m2!1sen!2sin!4v1539504457151" width="100%" height="450" allowFullScreen></iframe>
+        </div>
+      </section>
+
+
+      <section className="bg-gray-50 text-gray-800">
+        <div className="container flex flex-col md:flex-row px-4 md:px-0 items-center justify-center mx-auto  ">
+          <div className="flex flex-col w-full mx-4 my-2 md:my-6 shadow-lg">
+            <div className="flex flex-col items-start p-8 rounded-lg bg-white text-gray-500">
+              <div className='flex'>
+                <div className='p-1'>
+                  <svg width="1em" height="1em" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" ><path fill="#000000" d="M12 11.5A2.5 2.5 0 0 1 9.5 9A2.5 2.5 0 0 1 12 6.5A2.5 2.5 0 0 1 14.5 9a2.5 2.5 0 0 1-2.5 2.5M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7Z"></path></svg>
+                </div>
+                <div>
+                  <p>Skyroots Attestations No.CC 40/8942,(D-18), Jacob' DD Mall, MG Road Opp: Centre Square Mall, Kochi, Kerala 682035</p>
+                </div>
+              </div>
+              <div className='flex'>
+                <div className='p-1'>
+                  <svg width="1em" height="1em" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path fill="#000000" d="M478.94 370.14c-5.22-5.56-23.65-22-57.53-43.75c-34.13-21.94-59.3-35.62-66.52-38.81a3.83 3.83 0 0 0-3.92.49c-11.63 9.07-31.21 25.73-32.26 26.63c-6.78 5.81-6.78 5.81-12.33 4c-9.76-3.2-40.08-19.3-66.5-45.78s-43.35-57.55-46.55-67.3c-1.83-5.56-1.83-5.56 4-12.34c.9-1.05 17.57-20.63 26.64-32.25a3.83 3.83 0 0 0 .49-3.92c-3.19-7.23-16.87-32.39-38.81-66.52c-21.78-33.87-38.2-52.3-43.76-57.52a3.9 3.9 0 0 0-3.89-.87a322.35 322.35 0 0 0-56 25.45A338 338 0 0 0 33.35 92a3.83 3.83 0 0 0-1.26 3.74c2.09 9.74 12.08 50.4 43.08 106.72c31.63 57.48 53.55 86.93 100 133.22S252 405.21 309.54 436.84c56.32 31 97 41 106.72 43.07a3.86 3.86 0 0 0 3.75-1.26A337.73 337.73 0 0 0 454.35 430a322.7 322.7 0 0 0 25.45-56a3.9 3.9 0 0 0-.86-3.86Z"></path></svg>
+                </div>
+                <div>
+                  <p>0484 485 9555, +91 9567397477</p>
+                </div>
+              </div>
+              <div className='flex'>
+                <div className='p-1'>
+                  <svg width="1em" height="1em" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" ><path fill="#000000" d="M4 20q-.825 0-1.413-.588T2 18V6q0-.825.588-1.413T4 4h16q.825 0 1.413.588T22 6v12q0 .825-.588 1.413T20 20H4Zm8-7l8-5V6l-8 5l-8-5v2l8 5Z"></path></svg>
+                </div>
+                <div>
+                  <p>contact@skyroots.co.in</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-col  w-full mx-4 my-2 md:my-6 shadow-lg">
+            <div className="flex flex-col items-start p-8 rounded-lg bg-white text-gray-500">
+              <div className='flex'>
+                <div className='p-1'>
+                  <svg width="1em" height="1em" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" ><path fill="#000000" d="M12 11.5A2.5 2.5 0 0 1 9.5 9A2.5 2.5 0 0 1 12 6.5A2.5 2.5 0 0 1 14.5 9a2.5 2.5 0 0 1-2.5 2.5M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7Z"></path></svg>
+                </div>
+                <div>
+                  <p>Skyroots attestations First floor, FCC building, Mavoor Road,<br/>Calicut-673016</p>
+                </div>
+              </div>
+              <div className='flex'>
+                <div className='p-1'>
+                  <svg width="1em" height="1em" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path fill="#000000" d="M478.94 370.14c-5.22-5.56-23.65-22-57.53-43.75c-34.13-21.94-59.3-35.62-66.52-38.81a3.83 3.83 0 0 0-3.92.49c-11.63 9.07-31.21 25.73-32.26 26.63c-6.78 5.81-6.78 5.81-12.33 4c-9.76-3.2-40.08-19.3-66.5-45.78s-43.35-57.55-46.55-67.3c-1.83-5.56-1.83-5.56 4-12.34c.9-1.05 17.57-20.63 26.64-32.25a3.83 3.83 0 0 0 .49-3.92c-3.19-7.23-16.87-32.39-38.81-66.52c-21.78-33.87-38.2-52.3-43.76-57.52a3.9 3.9 0 0 0-3.89-.87a322.35 322.35 0 0 0-56 25.45A338 338 0 0 0 33.35 92a3.83 3.83 0 0 0-1.26 3.74c2.09 9.74 12.08 50.4 43.08 106.72c31.63 57.48 53.55 86.93 100 133.22S252 405.21 309.54 436.84c56.32 31 97 41 106.72 43.07a3.86 3.86 0 0 0 3.75-1.26A337.73 337.73 0 0 0 454.35 430a322.7 322.7 0 0 0 25.45-56a3.9 3.9 0 0 0-.86-3.86Z"></path></svg>
+                </div>
+                <div>
+                  <p>+91 9567397433</p>
+                </div>
+              </div>
+              <div className='flex'>
+                <div className='p-1'>
+                  <svg width="1em" height="1em" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" ><path fill="#000000" d="M4 20q-.825 0-1.413-.588T2 18V6q0-.825.588-1.413T4 4h16q.825 0 1.413.588T22 6v12q0 .825-.588 1.413T20 20H4Zm8-7l8-5V6l-8 5l-8-5v2l8 5Z"></path></svg>
+                </div>
+                <div>
+                  <p>contact@skyroots.co.in</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-col w-full mx-4 my-2 md:my-6 shadow-lg">
+            <div className="flex flex-col items-start p-8 rounded-lg bg-white text-gray-500">
+              <div className='flex'>
+                <div className='p-1'>
+                  <svg width="1em" height="1em" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" ><path fill="#000000" d="M12 11.5A2.5 2.5 0 0 1 9.5 9A2.5 2.5 0 0 1 12 6.5A2.5 2.5 0 0 1 14.5 9a2.5 2.5 0 0 1-2.5 2.5M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7Z"></path></svg>
+                </div>
+                <div>
+                  <p>Skyroots Attestation, 91 Hari Nagar, 1st floor, Ashram, Mathura road <br/>New Delhi, 110014</p>
+                </div>
+              </div>
+              <div className='flex'>
+                <div className='p-1'>
+                  <svg width="1em" height="1em" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path fill="#000000" d="M478.94 370.14c-5.22-5.56-23.65-22-57.53-43.75c-34.13-21.94-59.3-35.62-66.52-38.81a3.83 3.83 0 0 0-3.92.49c-11.63 9.07-31.21 25.73-32.26 26.63c-6.78 5.81-6.78 5.81-12.33 4c-9.76-3.2-40.08-19.3-66.5-45.78s-43.35-57.55-46.55-67.3c-1.83-5.56-1.83-5.56 4-12.34c.9-1.05 17.57-20.63 26.64-32.25a3.83 3.83 0 0 0 .49-3.92c-3.19-7.23-16.87-32.39-38.81-66.52c-21.78-33.87-38.2-52.3-43.76-57.52a3.9 3.9 0 0 0-3.89-.87a322.35 322.35 0 0 0-56 25.45A338 338 0 0 0 33.35 92a3.83 3.83 0 0 0-1.26 3.74c2.09 9.74 12.08 50.4 43.08 106.72c31.63 57.48 53.55 86.93 100 133.22S252 405.21 309.54 436.84c56.32 31 97 41 106.72 43.07a3.86 3.86 0 0 0 3.75-1.26A337.73 337.73 0 0 0 454.35 430a322.7 322.7 0 0 0 25.45-56a3.9 3.9 0 0 0-.86-3.86Z"></path></svg>
+                </div>
+                <div>
+                  <p>0484 485 9555, 9567397477</p>
+                </div>
+              </div>
+              <div className='flex'>
+                <div className='p-1'>
+                  <svg width="1em" height="1em" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" ><path fill="#000000" d="M4 20q-.825 0-1.413-.588T2 18V6q0-.825.588-1.413T4 4h16q.825 0 1.413.588T22 6v12q0 .825-.588 1.413T20 20H4Zm8-7l8-5V6l-8 5l-8-5v2l8 5Z"></path></svg>
+                </div>
+                <div>
+                  <p>contact@skyroots.co.in</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </>
