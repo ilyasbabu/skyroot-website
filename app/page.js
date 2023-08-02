@@ -121,7 +121,7 @@ export default function Home() {
       <section className='w-full bg-slate-0'>
         <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 text-gray-800">
           <h2 className="mb-8 text-4xl font-bold leadi text-center">Our Attestation Services</h2>
-          <ul className="grid gap-3 md:grid-cols-2 lg:grid-cols-3">
+          <ul className="grid grid-cols-2 gap-3 md:grid-cols-3 lg:grid-cols-4">
             {
               servicesArr.map((item) => (
                 <li key={item} className="flex items-center space-x-2">
@@ -140,7 +140,7 @@ export default function Home() {
       <section className='w-full bg-slate-100'>
         <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 text-gray-800">
           <h2 className="mb-8 text-4xl font-bold leadi text-center">Our Other Services</h2>
-          <ul className="grid gap-3 md:grid-cols-2 lg:grid-cols-3">
+          <ul className="grid grid-cols-2 gap-3 md:grid-cols-3 lg:grid-cols-4">
             {
               otherServicesArr.map((item) => (
                 <li key={item} className="flex items-center space-x-2">
