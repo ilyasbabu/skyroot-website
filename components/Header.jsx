@@ -54,7 +54,7 @@ const Header = () => {
 
     const MobileMenu = ({ name, link }) => {
         return (
-            <li className="flex"><Link rel="noopener noreferrer" href={link} className="flex w-full items-center px-4 hover:text-blue-500">{name}</Link></li>
+            <li className="flex"><Link onClick={() => (setOpen(!open))} rel="noopener noreferrer" href={link} className="flex w-full items-center px-4 hover:text-blue-500">{name}</Link></li>
         )
     }
 
@@ -74,7 +74,7 @@ const Header = () => {
                 </li>
                 {links.map((item) => (
                     <li key={item.name} className={`transition-all duration-500 ease-in-out ${mobileDropdownopen[name] ? "flex animate-slideIn" : "hidden animate-slideOut"}`}>
-                        <Link rel="noopener noreferrer" href={item.link} className="flex items-center w-full px-4 hover:text-blue-500">{item.name}</Link>
+                        <Link onClick={() => (setOpen(!open))} rel="noopener noreferrer" href={item.link} className="flex items-center w-full px-4 hover:text-blue-500">{item.name}</Link>
                     </li>
                 ))}
             </>
