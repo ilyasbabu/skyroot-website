@@ -9,7 +9,7 @@ const page = () => {
                 <div className="grid max-w-screen-xl grid-cols-1 gap-8 px-8 py-16 mx-auto rounded-lg md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 bg-gray-100 text-gray-800">
                     <div className="flex flex-col justify-between">
                         <div className="space-y-2">
-                            <h2 className="text-4xl font-bold leadi lg:text-5xl">Let's talk!</h2>
+                            <h2 className="text-4xl font-bold leadi lg:text-5xl">Let&apos;s talk!</h2>
                             <div className="text-gray-600">Should you have any questions regarding our service, do not hesitate to reach out.</div>
                         </div>
                         <Image width={500} height={500} src={"/images/contact.jpg"} alt="Contact" className="p-6 w-full mix-blend-multiply" />
