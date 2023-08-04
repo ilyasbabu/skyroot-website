@@ -95,7 +95,7 @@ export default function Home() {
                   image: "/images/5a.jpeg",
                 },
               ].map((item) => (
-                <div className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-gray-50">
+                <div key={item.heading} className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-gray-50">
                   <Image role="presentation" width={500} height={500} className="object-cover w-full rounded h-44 bg-gray-500" alt={item.name} src={item.image} />
                   <div className="p-6 space-y-2">
                     <h3 className="text-2xl font-semibold group-hover:underline group-focus:underline">{item.heading}</h3>
@@ -173,7 +173,7 @@ export default function Home() {
                 icon: <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" className="w-9 h-9 text-gray-100"><path d="M256.25,16A240,240,0,0,0,88,84.977V16H56V144H184V112H106.287A208,208,0,0,1,256.25,48C370.8,48,464,141.2,464,255.75S370.8,463.5,256.25,463.5,48.5,370.3,48.5,255.75h-32A239.75,239.75,0,0,0,425.779,425.279,239.75,239.75,0,0,0,256.25,16Z"></path><polygon points="240 111.951 239.465 288 368 288 368 256 271.563 256 272 112.049 240 111.951"></polygon></svg>
               },
             ].map((item) => (
-              <div className="flex p-4 space-x-4 rounded-lg md:space-x-6 bg-gray-50 text-gray-800">
+              <div key={item.name} className="flex p-4 space-x-4 rounded-lg md:space-x-6 bg-gray-50 text-gray-800">
                 <div className="flex justify-center p-2 align-middle rounded-lg sm:p-4 bg-sky-600">
                   {item.icon}
                 </div>
@@ -212,7 +212,7 @@ export default function Home() {
                 place: "Kottayam",
               },
             ].map((item) => (
-              <div className="flex flex-col max-w-sm mx-4 my-6 shadow-lg">
+              <div key={item.name} className="flex flex-col max-w-sm mx-4 my-6 shadow-lg">
                 <div className="px-4 py-12 rounded-t-lg sm:px-8 md:px-12 bg-gray-50">
                   <p className="relative px-6 py-1 text-lg italic text-center text-gray-800">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" className="w-8 h-8 text-sky-600">
@@ -235,7 +235,7 @@ export default function Home() {
         </div>
       </section>
 
-      <Map/>
+      <Map />
 
       <section className="bg-gray-50 text-gray-800">
         <div className="container flex flex-col md:flex-row px-4 md:px-0 items-center justify-center mx-auto  ">
@@ -256,8 +256,8 @@ export default function Home() {
                 phone: "0484 485 9555, +91 9567397477",
                 mail: "contact@skyroots.co.in",
               },
-            ].map((item) => (
-              <div className="flex flex-col w-full mx-4 my-2 md:my-6 shadow-lg">
+            ].map((item, index) => (
+              <div key={index} className="flex flex-col w-full mx-4 my-2 md:my-6 shadow-lg">
                 <div className="flex flex-col items-start p-8 rounded-lg bg-white text-gray-500">
                   <div className='flex'>
                     <div className='p-1'>

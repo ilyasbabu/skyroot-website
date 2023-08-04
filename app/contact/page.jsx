@@ -16,15 +16,15 @@ const page = () => {
                     </div>
                     <form className="flex flex-col justify-center">
                         <div>
-                            <label for="name" className="text-sm">Full name</label>
+                            <label htmlFor="name" className="text-sm">Full name</label>
                             <input id="name" type="text" placeholder="" className="w-full border-2 p-3 rounded bg-gray-100" />
                         </div>
                         <div>
-                            <label for="email" className="text-sm">Email</label>
+                            <label htmlFor="email" className="text-sm">Email</label>
                             <input id="email" type="email" className="w-full border-2 p-3 rounded bg-gray-100" />
                         </div>
                         <div>
-                            <label for="message" className="text-sm">Message</label>
+                            <label htmlFor="message" className="text-sm">Message</label>
                             <textarea id="message" rows="3" className="w-full border-2 p-3 rounded bg-gray-100"></textarea>
                         </div>
                         <button type="submit" className="w-full p-3 text-sm font-bold tracki uppercase rounded bg-sky-600 text-gray-50">Send Message</button>
@@ -51,8 +51,8 @@ const page = () => {
                                 phone: "+91 9567397477",
                                 mail: "contact@skyroots.co.in",
                             },
-                        ].map((item) => (
-                            <div className="flex flex-col w-full mx-4 my-2 md:my-6 shadow-lg">
+                        ].map((item,index) => (
+                            <div key={index} className="flex flex-col w-full mx-4 my-2 md:my-6 shadow-lg">
                                 <div className="flex flex-col items-start p-8 rounded-lg bg-white text-gray-500">
                                     <div className='flex'>
                                         <div className='p-1'>
