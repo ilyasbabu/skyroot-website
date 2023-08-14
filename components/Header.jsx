@@ -5,7 +5,16 @@ import Image from "next/image"
 import { useState } from "react"
 
 
-
+const embassyAttestationMenus = [
+    { name: "Embassy Attestation", link: "/embassy-attestation/embassy-attestation" },
+    { name: "UAE Attestation", link: "/embassy-attestation/uae-attestation" },
+    { name: "Saudi Attestation", link: "/embassy-attestation/saudi-attestation" },
+    { name: "Qatar Attestation", link: "/embassy-attestation/qatar-attestation" },
+    { name: "Malaysian Attestation", link: "/embassy-attestation/malaysia-attestation" },
+    { name: "Kuwait Attestation", link: "/embassy-attestation/kuwait-attestation" },
+    { name: "Bahrain Attestation", link: "/embassy-attestation/baharain-attestation" },
+    { name: "Other Attestation", link: "/embassy-attestation/other-attestation" },
+]
 
 
 const Header = () => {
@@ -88,16 +97,7 @@ const Header = () => {
                     <Menu name={"Home"} link={"/"} />
                     <Menu name={"About"} link={"/about"} />
                     <DropMenu name="Embassy Attestation"
-                        links={[
-                            { name: "Embassy Attestation", link: "/link" },
-                            { name: "UAE Attestation", link: "/link" },
-                            { name: "Saudi Attestation", link: "/link" },
-                            { name: "Qatar Attestation", link: "/link" },
-                            { name: "Malaysian Attestation", link: "/link" },
-                            { name: "Kuwait Attestation", link: "/link" },
-                            { name: "Bahrain Attestation", link: "/link" },
-                            { name: "Other Attestation", link: "/link" },
-                        ]}
+                        links={embassyAttestationMenus}
                     />
                 </ul>
                 <Link rel="noopener noreferrer" href="/" aria-label="Back to homepage" className="flex items-center p-2">
@@ -146,16 +146,7 @@ const Header = () => {
                 <MobileMenu name={"About"} link={"/about"} />
                 <MobileMenu name={"Contact"} link={"/contact"} />
                 <MobileDropMenu name="Embassy Attestation"
-                    links={[
-                        { name: "Embassy Attestation", link: "/link" },
-                        { name: "UAE Attestation", link: "/link" },
-                        { name: "Saudi Attestation", link: "/link" },
-                        { name: "Qatar Attestation", link: "/link" },
-                        { name: "Malaysian Attestation", link: "/link" },
-                        { name: "Kuwait Attestation", link: "/link" },
-                        { name: "Bahrain Attestation", link: "/link" },
-                        { name: "Other Attestation", link: "/link" },
-                    ]}
+                        links={embassyAttestationMenus}
                 />
                 <MobileDropMenu name="Attestation"
                     links={[
