@@ -168,7 +168,7 @@ const contents = [
         slug: "baharain-attestation",
         title: "Baharain Attestation",
         content: <>
-            <p>Bahrain officially the Kingdom of Bahrain is an island country in Western Asia. It is situated on the Persian Gulf, and comprises a small archipelago made up of 50 natural islands and 33 artificial islands, centered on Bahrain Island which makes up around 83 percent of the country's landmass.</p>
+            <p>Bahrain officially the Kingdom of Bahrain is an island country in Western Asia. It is situated on the Persian Gulf, and comprises a small archipelago made up of 50 natural islands and 33 artificial islands, centered on Bahrain Island which makes up around 83 percent of the country&apos;s landmass.</p>
             <br />
             <p>Bahrain requires Apostille attestation or their own embassy attestation on original certificates to prove its authenticity. In India, an Embassy and a consulate are for the Documentation process.</p>
             <br />
