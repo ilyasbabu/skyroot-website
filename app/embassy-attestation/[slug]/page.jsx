@@ -1,9 +1,13 @@
 import contents from '@/app/embassy-attestation/[slug]/contents'
+import { notFound } from 'next/navigation'
 
 
 const page = (props) => {
     const slug = props.params.slug
     const data = contents.find(item => item.slug === slug)
+    if (!data) {
+        notFound()
+    }
 
 
     return (

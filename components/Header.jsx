@@ -35,7 +35,7 @@ const Header = () => {
 
     const Menu = ({ name, link }) => {
         return (
-            <li className="flex items-center"><Link rel="noopener noreferrer" href={link} className="flex items-center px-4  hover:text-blue-400">{name}</Link></li>
+            <li className="flex items-center"><Link rel="noopener noreferrer" href={link} className="flex items-center px-4 text-black hover:text-blue-400">{name}</Link></li>
         )
     }
 
@@ -44,7 +44,7 @@ const Header = () => {
             <li className="flex items-center">
                 <div className="group relative cursor-pointer px-4">
                     <div className="flex items-center md:justify-between space-x-2">
-                        <p className="menu-hover hover:text-blue-400">{name}</p>
+                        <p className="menu-hover text-black hover:text-blue-400">{name}</p>
                         <span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor"
                                 className="h-5 w-5 group-hover:rotate-180 transition-all">
