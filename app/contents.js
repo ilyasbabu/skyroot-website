@@ -406,7 +406,7 @@ export const attestationContent = [
             <br />
             <br /><p><b>A - </b>Albania, Andorra, Antigua and Barbuda, Argentina, Armenia, Australia, Austria, Azerbaijan</p>
             <br /><p><b>B - </b>Bahamas, Bahrain, Barbados, Belarus, Belgium, Belize, Bolivia, Bosnia and Herzegovina, Botswana, Brazil, Brunei Darussalam, Bulgaria, Burundi</p>
-            <br /><p><b>C - </b>Cape Verde, Chile, China, People's Republic of(Hong Kong & Macao Only), Colombia, Cook Islands, Costa Rica, Croatia, Cyprus, Czech Republic</p>
+            <br /><p><b>C - </b>Cape Verde, Chile, China, People&apos;s Republic of(Hong Kong & Macao Only), Colombia, Cook Islands, Costa Rica, Croatia, Cyprus, Czech Republic</p>
             <br /><p><b>D - </b>Denmark, Dominica ,Dominican Republic</p>
             <br /><p><b>E - </b>Ecuador, El Salvador, Estonia</p>
             <br /><p><b>F - </b>Fiji, Finland, France</p>
@@ -604,8 +604,8 @@ export const attestationContent = [
             <Heading>Who will do the HRD..?</Heading>
             <ul className="ml-2 mb-2">
                 <li>&#8226; Kerala <br />In the state of Kerala, NORKA will do the HRD. Total three Norka branches are working regularly in Kerala for provides Norka (HRD) attestation - Trivandrum, Kozhikode and Ernakulam. They only allowing direct candidate or blood relatives of the candidates. for more details kindly contact us : 9567397477<br /><br /></li>
-                <li>&#8226; Tamil nadu<br />In the state of Tamilnad, HRD attestation is will do from the public foreign affairs, which is situated in Tamil Nadu Secretariat. for this process candidate can register through esanad web portal. We Skyroots Attestations provides the Tamilnadu HRD Attestation without the candidate's presence.<br /><br /></li>
-                <li>&#8226; Karnataka <br />Most of the Karnataka Educational Certificates are do the HRD from Additional Deputy Commissioner & Additional District magistrate in Bangalore. We Skyroots Attestations provides the Tamilnadu HRD Attestation without the candidate's presence.<br /><br /></li>
+                <li>&#8226; Tamil nadu<br />In the state of Tamilnad, HRD attestation is will do from the public foreign affairs, which is situated in Tamil Nadu Secretariat. for this process candidate can register through esanad web portal. We Skyroots Attestations provides the Tamilnadu HRD Attestation without the candidate&apos;s presence.<br /><br /></li>
+                <li>&#8226; Karnataka <br />Most of the Karnataka Educational Certificates are do the HRD from Additional Deputy Commissioner & Additional District magistrate in Bangalore. We Skyroots Attestations provides the Tamilnadu HRD Attestation without the candidate&apos;s presence.<br /><br /></li>
             </ul>
             <Heading>HRD Attestation Required Countries</Heading>
             <ul className="ml-2 mb-2">
@@ -727,7 +727,7 @@ export const attestationContent = [
     {
         slug: "power-of-attorney", title: "POWER OF ATTORNEY OR AFFIDAVIT ATTESTATION",
         content: <>
-            <p>A power of attorney is a legally binding document or authorization in written format to represent or act on a person's behalf in private affairs, business, or some other legal matter. The power of attorney is mainly used when one become ill or disabled, or if the person is residing in a another country and can't be present to sign legal or financial documents. In order to make it valid for international transactions, it should be attested from concerned authority or respective embassy. Power of Attorneys were prepared for different purposes internationally like giving authorization to another person ;</p>
+            <p>A power of attorney is a legally binding document or authorization in written format to represent or act on a person&apos;s behalf in private affairs, business, or some other legal matter. The power of attorney is mainly used when one become ill or disabled, or if the person is residing in a another country and can&apos;t be present to sign legal or financial documents. In order to make it valid for international transactions, it should be attested from concerned authority or respective embassy. Power of Attorneys were prepared for different purposes internationally like giving authorization to another person ;</p>
             <br />
             <ul className="ml-2">
                 <li>&#8226; To buy or sell a vehicle</li>
@@ -851,7 +851,7 @@ export const moreContent = [
     {
         slug: "oman-pcc", title: "PCC From OMAN",
         content: <>
-            <p>Oman PCC is an official certificate assigned by the Royal Oman police of Sultanate of Oman, stating that the individual has not committed any crime hazardous to the nation's security, and was obliged to standard law of Oman during his/her stay in Oman.That is, PCC from Oman to prove that the person has no criminal background in Oman. It is issued to residents of Oman, who have resided more than a year. It is a mandatory requirement when a person resided in Oman plans to migrate to any other nation for study or employment purposes. The hosting country demands the PCC in order to safeguard the integrity of their nation from any criminal attack or any external aggression.</p>
+            <p>Oman PCC is an official certificate assigned by the Royal Oman police of Sultanate of Oman, stating that the individual has not committed any crime hazardous to the nation&apos;s security, and was obliged to standard law of Oman during his/her stay in Oman.That is, PCC from Oman to prove that the person has no criminal background in Oman. It is issued to residents of Oman, who have resided more than a year. It is a mandatory requirement when a person resided in Oman plans to migrate to any other nation for study or employment purposes. The hosting country demands the PCC in order to safeguard the integrity of their nation from any criminal attack or any external aggression.</p>
             <Heading>Required Documents</Heading>
             <ul className="ml-2 mb-3">
                 <li>&#8226; Passport copy</li>
