@@ -16,10 +16,41 @@ const embassyAttestationMenus = [
     { name: "Other Attestation", link: "/embassy-attestation/other-attestation" },
 ]
 
+const attestaationMenus = [
+    { name: "Certificates Attestation", link: "/attestation/certificates-attestation" },
+    { name: "Apostle Attestation", link: "/attestation/apostle-attestation" },
+    { name: "MEA Attestation", link: "/attestation/mea-attestation" },
+    { name: "Marriage Certificate Attestation", link: "/attestation/marriage-certificate-attestation" },
+    { name: "Birth Certificate Attestation", link: "/attestation/birth-certificate-attestation" },
+    { name: "Norka Attestation", link: "/attestation/norka-attestation" },
+    { name: "HRD Attestation", link: "/attestation/hrd-attestation" },
+    { name: "Kerala HRD", link: "/attestation/kerala-hrd" },
+    { name: "Home Dept.Attestation", link: "/attestation/home-dept-attestation" },
+    { name: "Commercial Documents", link: "/attestation/commercial-documents" },
+    { name: "Educational Documents", link: "/attestation/educational-documents" },
+    { name: "Power of attorney", link: "/attestation/power-of-attorney" },
+    { name: "SDM/ Chamber", link: "/attestation/sdm-chamber" },
+]
+
+const moreMenus = [
+    { name: "UAE PCC", link: "/more/uae-pcc" },
+    { name: "Oman PCC", link: "/more/oman-pcc" },
+    { name: "PCC Attestation", link: "/more/pcc" },
+    { name: "Visa Stamping", link: "/more/visa-stamping" },
+    { name: "Translations", link: "/more/translations" },
+    { name: "WES/IQAS Verification", link: "/more/wes-iqas-verification" },
+    { name: "Notary", link: "/more/notary" },
+]
+
 
 const Header = () => {
     let [open, setOpen] = useState(false);
     let [mobileDropdownopen, setMobileDropdownopen] = useState({ "Embassy Attestation": false, "Attestation": false, "More": false });
+
+    const closeMenu = ()=>{
+        setOpen(false);
+        setMobileDropdownopen({ "Embassy Attestation": false, "Attestation": false, "More": false });
+    }
 
     const handleDropdowns = (name) => {
         let newDropdownState = { "Embassy Attestation": false, "Attestation": false, "More": false };
@@ -53,7 +84,7 @@ const Header = () => {
                     </div>
                     <div className="invisible absolute z-50 flex w-56 flex-col bg-gray-50 py-1 px-1 text-gray-800 shadow-xl group-hover:visible">
                         {links.map((item) => (
-                            <Link href={item.link} key={item.name} className="my-2 block py-1 text-gray-700 hover:text-blue-400 md:mx-2">{item.name}</Link>
+                            <Link href={item.link} onClick={closeMenu} key={item.name} className="my-2 block py-1 text-gray-700 hover:text-blue-400 md:mx-2">{item.name}</Link>
                         ))}
                     </div>
                 </div>
@@ -63,7 +94,7 @@ const Header = () => {
 
     const MobileMenu = ({ name, link }) => {
         return (
-            <li className="flex"><Link onClick={() => (setOpen(!open))} rel="noopener noreferrer" href={link} className="flex w-full items-center px-4 hover:text-blue-500">{name}</Link></li>
+            <li className="flex"><Link onClick={closeMenu} rel="noopener noreferrer" href={link} className="flex w-full items-center px-4 hover:text-blue-500">{name}</Link></li>
         )
     }
 
@@ -83,7 +114,7 @@ const Header = () => {
                 </li>
                 {links.map((item) => (
                     <li key={item.name} className={`transition-all duration-500 ease-in-out ${mobileDropdownopen[name] ? "flex animate-slideIn" : "hidden animate-slideOut"}`}>
-                        <Link onClick={() => (setOpen(!open))} rel="noopener noreferrer" href={item.link} className="flex items-center w-full px-4 hover:text-blue-500">{item.name}</Link>
+                        <Link onClick={closeMenu} rel="noopener noreferrer" href={item.link} className="flex items-center w-full px-4 hover:text-blue-500">{item.name}</Link>
                     </li>
                 ))}
             </>
@@ -105,31 +136,10 @@ const Header = () => {
                 </Link>
                 <ul className="items-stretch hidden space-x-3 md:flex">
                     <DropMenu name="Attestaion"
-                        links={[
-                            { name: "Certificates Attestation", link: "/link" },
-                            { name: "Apostle Attestation", link: "/link" },
-                            { name: "Marriage Certificate Attestation", link: "/link" },
-                            { name: "Birth Certificate Attestation", link: "/link" },
-                            { name: "Norka Attestation", link: "/link" },
-                            { name: "HRD Attestation", link: "/link" },
-                            { name: "Kerala HRD", link: "/link" },
-                            { name: "Home Dept.Attestation", link: "/link" },
-                            { name: "Commercial Documents", link: "/link" },
-                            { name: "Educational Documents", link: "/link" },
-                            { name: "Power of attorney", link: "/link" },
-                            { name: "SDM/ Chamber", link: "/link" },
-                        ]}
+                        links={attestaationMenus}
                     />
                     <DropMenu name="More"
-                        links={[
-                            { name: "UAE PCC", link: "/link" },
-                            { name: "Oman PCC", link: "/link" },
-                            { name: "PCC Attestation", link: "/link" },
-                            { name: "Visa Stamping", link: "/link" },
-                            { name: "Translations", link: "/link" },
-                            { name: "WES/IQAS Verification", link: "/link" },
-                            { name: "Notary", link: "/link" },
-                        ]}
+                        links={moreMenus}
                     />
                     <Menu name={"Contact"} link={"/contact"} />
                 </ul>
@@ -149,31 +159,10 @@ const Header = () => {
                         links={embassyAttestationMenus}
                 />
                 <MobileDropMenu name="Attestation"
-                    links={[
-                        { name: "Certificates Attestation", link: "/link" },
-                        { name: "Apostle Attestation", link: "/link" },
-                        { name: "Marriage Certificate Attestation", link: "/link" },
-                        { name: "Birth Certificate Attestation", link: "/link" },
-                        { name: "Norka Attestation", link: "/link" },
-                        { name: "HRD Attestation", link: "/link" },
-                        { name: "Kerala HRD", link: "/link" },
-                        { name: "Home Dept.Attestation", link: "/link" },
-                        { name: "Commercial Documents", link: "/link" },
-                        { name: "Educational Documents", link: "/link" },
-                        { name: "Power of attorney", link: "/link" },
-                        { name: "SDM/ Chamber", link: "/link" },
-                    ]}
+                    links={attestaationMenus}
                 />
                 <MobileDropMenu name="More"
-                    links={[
-                        { name: "UAE PCC", link: "/link" },
-                        { name: "Oman PCC", link: "/link" },
-                        { name: "PCC Attestation", link: "/link" },
-                        { name: "Visa Stamping", link: "/link" },
-                        { name: "Translations", link: "/link" },
-                        { name: "WES/IQAS Verification", link: "/link" },
-                        { name: "Notary", link: "/link" },
-                    ]}
+                    links={moreMenus}
                 />
             </ul>
         </header>

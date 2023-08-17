@@ -1,14 +1,13 @@
-import { embassyAttestationContent } from '@/app/contents'
+import { attestationContent } from '@/app/contents'
 import { notFound } from 'next/navigation'
 
 
 const page = (props) => {
     const slug = props.params.slug
-    const data = embassyAttestationContent.find(item => item.slug === slug)
+    const data = attestationContent.find(item => item.slug === slug)
     if (!data) {
         notFound()
     }
-
 
     return (
         <section className='p-5 min-h-[80vh] md:mx-36 lg:mx-56'>
@@ -19,7 +18,7 @@ const page = (props) => {
                     </li>
                     <li className="flex items-center space-x-1">
                         <span className="text-gray-600">/</span>
-                        <a rel="noopener noreferrer" href="#" className="flex items-center px-1 capitalize hover:underline">Embassy Attestation</a>
+                        <a rel="noopener noreferrer" href="#" className="flex items-center px-1 capitalize hover:underline">Attestation</a>
                     </li>
                     <li className="flex items-center space-x-1">
                         <span className="text-gray-600">/</span>
