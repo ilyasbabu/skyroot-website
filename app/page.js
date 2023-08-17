@@ -5,36 +5,36 @@ import Link from 'next/link'
 export default function Home() {
 
   const servicesArr = [
-    "UAE Embassy",
-    "Saudi Embassy",
-    "Qatar Embassy",
-    "Malaysian",
-    "Kuwait Embassy",
-    "Bahrain Embassy",
-    "Other Embassy",
-    "SDM/ Chamber",
-    "MEA",
-    "Power of attorney",
-    "Norka",
-    "Marriage certificate",
-    "HRD",
-    "Educational Docs",
-    "Commercial Docs",
-    "kerala HRD",
-    "Birth Certificate",
-    "Home Department",
-    "Apostle",
-    "Certificates"
+    { name: "UAE Embassy", link: "/embassy-attestation/uae-attestation" },
+    { name: "Saudi Embassy", link: "/embassy-attestation/saudi-attestation" },
+    { name: "Qatar Embassy", link: "/embassy-attestation/qatar-attestation" },
+    { name: "Malaysian", link: "/embassy-attestation/malaysia-attestation" },
+    { name: "Kuwait Embassy", link: "/embassy-attestation/kuwait-attestation" },
+    { name: "Bahrain Embassy", link: "/embassy-attestation/baharain-attestation" },
+    { name: "Other Embassy", link: "/embassy-attestation/other-attestation" },
+    { name: "SDM/ Chamber", link: "/attestation/sdm-chamber" },
+    { name: "MEA", link: "/attestation/mea-attestation" },
+    { name: "Power of attorney", link: "/attestation/power-of-attorney" },
+    { name: "Norka", link: "/attestation/norka-attestation" },
+    { name: "Marriage certificate", link: "/attestation/marriage-certificate-attestation" },
+    { name: "HRD", link: "/attestation/hrd-attestation" },
+    { name: "Educational Docs", link: "/attestation/educational-documents" },
+    { name: "Commercial Docs", link: "/attestation/commercial-documents" },
+    { name: "kerala HRD", link: "/attestation/kerala-hrd" },
+    { name: "Birth Certificate", link: "/attestation/birth-certificate-attestation" },
+    { name: "Home Department", link: "/attestation/home-dept-attestation" },
+    { name: "Apostle", link: "/attestation/apostle-attestation" },
+    { name: "Certificates", link: "/attestation/certificates-attestation" }
   ]
   const otherServicesArr = [
-    "Visa Stamping",
-    "PCC From UAE",
-    "PCC From Oman",
-    "PCC Attestation",
-    "Translations",
-    "WES/IQAS Verification",
-    "Notary"
-  ]
+    { name: "Visa Stamping", link: "/more/visa-stamping" },
+    { name: "PCC From UAE", link: "/more/uae-pcc" },
+    { name: "PCC From Oman", link: "/more/oman-pcc" },
+    { name: "PCC Attestation", link: "/more/pcc" },
+    { name: "Translations", link: "/more/translations" },
+    { name: "WES/IQAS Verification", link: "/more/wes-iqas-verification" },
+    { name: "Notary", link: "/more/notary" },
+]
 
   return (
     <>
@@ -47,7 +47,7 @@ export default function Home() {
             </svg>
             <h2 className="text-3xl font-semibold leadi">Best Attestation Service Provider</h2>
             <p className="mt-4 mb-8 text-sm">Skyroots provide assured administrative assistance and service.</p>
-            <button className="self-start px-10 py-3 text-lg font-medium rounded-3xl bg-sky-600 text-gray-50">Quick Track</button>
+            <Link href={"/track"} className="self-start px-10 py-3 text-lg font-medium rounded-3xl bg-sky-600 text-gray-50">Quick Track</Link>
           </div>
         </div>
       </section>
@@ -66,14 +66,14 @@ export default function Home() {
           <div className="block max-w-sm gap-3 mx-auto sm:max-w-full group hover:no-underline focus:no-underline lg:grid lg:grid-cols-12 bg-gray-50">
             <Image src="/images/3.jpg" alt="Certificate Attestation" width={500} height={500} className="object-cover w-full h-64 rounded sm:h-96 lg:col-span-7 bg-gray-500" />
             <div className="p-6 space-y-2 lg:col-span-5">
-              <h3 className="text-2xl font-semibold sm:text-4xl group-hover:underline group-focus:underline">Certificate Attestation</h3>
+              <Link href={"/attestation/certificates-attestation"} className="text-2xl font-semibold sm:text-4xl hover:underline">Certificate Attestation</Link>
               <p className='line-clamp-3 sm:line-clamp-6'>Attestation is a legal acknowledgment of evaluating the authenticity of educational and non-educational documents from home country to certify it’s genuinity.Normally Indian Government provides two types of attestation in Indian Certificates. One is Apostille attestation by MEA i.e. Ministry of External affairs and the other one is by the concerned Embassy of the hosting country.</p>
-              <a className="inline-flex items-center space-x-2 text-sm text-sky-600" href="/components">
+              <Link className="inline-flex items-center space-x-2 text-sm text-sky-600" href="/attestation/certificates-attestation">
                 <span>Learn More</span>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-4 h-4">
                   <path fillRule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd"></path>
                 </svg>
-              </a>
+              </Link>
             </div>
           </div>
           <div className="grid justify-center grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -81,16 +81,19 @@ export default function Home() {
               [
                 {
                   heading: "MEA / Appostile",
+                  link:"/attestation/mea-attestation",
                   paragraph: "MEA(Ministry of External Affairs) is a central government body which communicates international affairs.Only the MEA can do the Apostille attestation and Embassy approved attestation on the certificates. The documents which have been used in other nations require the MEA Attestation should be first authenticated by designated authorities of State/Union territory from where the document is issued.",
                   image: "/images/4a.jpeg",
                 },
                 {
                   heading: "PCC",
+                  link:"/more/pcc",
                   paragraph: "PCC means Police Clearance Certificate is a certificate issued by respective police authority/ police experts regarding the criminal status of a person. It is a confirmation issued by the nation of origin that the person is devoid of any criminal records or in any violations of legal code and rules of the nation. Criminal records may incorporate arrest, capture, conviction and conceivably court procedures. Simply, Police clearance certificate is a good conduct certificate issued by police authority of the nation of origin. It is called variously in each nation as police certificate, good conduct certificates, judicial records extracts, PCC, etc. PCC is a document required when you are planning to travel abroad for education or employment purposes.",
                   image: "/images/6a.jpeg",
                 },
                 {
                   heading: "Visa Stamping",
+                  link:"/more/visa-stamping",
                   paragraph: "Visa, an official entry authorization to enter the territory and have to be used within a certain period of time. The authorization may be a document subject to permission of an immigration official at the time of entry, commonly it is a stamp endorsed in applicant’s passport.",
                   image: "/images/5a.jpeg",
                 },
@@ -98,14 +101,14 @@ export default function Home() {
                 <div key={item.heading} className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-gray-50">
                   <Image role="presentation" width={500} height={500} className="object-cover w-full rounded h-44 bg-gray-500" alt={item.name} src={item.image} />
                   <div className="p-6 space-y-2">
-                    <h3 className="text-2xl font-semibold group-hover:underline group-focus:underline">{item.heading}</h3>
+                    <Link href={item.link} className="text-2xl font-semibold hover:underline">{item.heading}</Link>
                     <p className='line-clamp-3'>{item.paragraph}</p>
-                    <a className="inline-flex items-center space-x-2 text-sm text-sky-600" href="/components">
+                    <Link href={item.link} className="inline-flex items-center space-x-2 text-sm text-sky-600">
                       <span>Learn More</span>
                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-4 h-4">
                         <path fillRule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd"></path>
                       </svg>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               ))
@@ -119,12 +122,12 @@ export default function Home() {
           <ul className="grid grid-cols-2 gap-3 md:grid-cols-3 lg:grid-cols-4">
             {
               servicesArr.map((item) => (
-                <li key={item} className="flex items-center space-x-2">
+                <li key={item.name} className="flex items-center space-x-2">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" className="w-5 h-5 fill-current text-sky-600">
                     <path d="M426.072,86.928A238.75,238.75,0,0,0,88.428,424.572,238.75,238.75,0,0,0,426.072,86.928ZM257.25,462.5c-114,0-206.75-92.748-206.75-206.75S143.248,49,257.25,49,464,141.748,464,255.75,371.252,462.5,257.25,462.5Z"></path>
                     <polygon points="221.27 305.808 147.857 232.396 125.23 255.023 221.27 351.063 388.77 183.564 366.142 160.937 221.27 305.808"></polygon>
                   </svg>
-                  <span>{item}</span>
+                  <Link href={item.link}>{item.name}</Link>
                 </li>
               ))
             }
@@ -138,12 +141,12 @@ export default function Home() {
           <ul className="grid grid-cols-2 gap-3 md:grid-cols-3 lg:grid-cols-4">
             {
               otherServicesArr.map((item) => (
-                <li key={item} className="flex items-center space-x-2">
+                <li key={item.name} className="flex items-center space-x-2">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" className="w-5 h-5 fill-current text-sky-600">
                     <path d="M426.072,86.928A238.75,238.75,0,0,0,88.428,424.572,238.75,238.75,0,0,0,426.072,86.928ZM257.25,462.5c-114,0-206.75-92.748-206.75-206.75S143.248,49,257.25,49,464,141.748,464,255.75,371.252,462.5,257.25,462.5Z"></path>
                     <polygon points="221.27 305.808 147.857 232.396 125.23 255.023 221.27 351.063 388.77 183.564 366.142 160.937 221.27 305.808"></polygon>
                   </svg>
-                  <span>{item}</span>
+                  <Link href={item.link}>{item.name}</Link>
                 </li>
               ))
             }
