@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link"
 const Footer = () => {
     return (
         <>
@@ -10,36 +11,32 @@ const Footer = () => {
                         </div>
                         <ul className="flex flex-wrap items-center space-x-4 sm:space-x-8">
                             <li>
-                                <a rel="noopener noreferrer" href="#">Home</a>
+                                <Link href="/">Home</Link>
                             </li>
                             <li>
-                                <a rel="noopener noreferrer" href="#">About</a>
+                                <Link href="/about">About</Link>
                             </li>
                             <li>
-                                <a rel="noopener noreferrer" href="#">Contact</a>
+                                <Link href="/contact">Contact</Link>
                             </li>
                         </ul>
                     </div>
                     <ul className="flex flex-wrap pl-3 space-x-4 sm:space-x-8">
                         <li>
-                            <a rel="noopener noreferrer" href="#">Instagram</a>
+                            <Link href="/">Instagram</Link>
                         </li>
                         <li>
-                            <a rel="noopener noreferrer" href="#">Facebook</a>
+                            <Link href="/">Facebook</Link>
                         </li>
                         <li>
-                            <a rel="noopener noreferrer" href="#">Twitter</a>
+                            <Link href="/">Twitter</Link>
                         </li>
                     </ul>
                 </div>
                 <div className="flex items-center justify-center pt-10 md:pt-1 text-xs">
-                    <span className="text-gray-600">© Copyright 2023. All Rights Reserved.</span>
+                    <span className="text-gray-600">© Copyright {new Date().getFullYear()}. All Rights Reserved.</span>
                 </div>
             </footer>
-
-
-
-
         </>
     )
 }
