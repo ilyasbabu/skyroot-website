@@ -1,4 +1,12 @@
 
+export const metadata = {
+    title: "Track",
+    description: "Each document will reach its destination safely and on time. To get your certificate faster , we provide the most fastest route for attestation",
+    alternates:{
+        canonical:"/track"
+    },
+}
+
 const page = () => {
     return (
         <section className='p-5 bg-gray-100 min-h-[80vh] '>

@@ -19,8 +19,8 @@ const Ending = () => {
 export const embassyAttestationContent = [
 
     {
-        slug: "embassy-attestation",
-        title: "Embassy Attestation",
+        slug: "embassy-attestation", title: "Embassy Attestation", heading: "Embassy Attestation",
+        description: "Embassy Attestation is the apt way when document have get attest from the Ministry of the external affairs. Or Non Hague convention countries this is essential since these embassies are responsible and have right to attest the document and make validate document in their particular countries.",
         content: <>
             <p>Embassy attestation is the apt way when document have get attest from the Ministry of the external affairs. Or Non Hague convention countries this is essential since these embassies are responsible and have right to attest the document and make validate document in their particular countries.</p>
             <br />
@@ -35,8 +35,8 @@ export const embassyAttestationContent = [
         </>
     },
     {
-        slug: "uae-attestation",
-        title: "UAE Attestation",
+        slug: "uae-attestation", title: "UAE Attestation", heading: "UAE Attestation",
+        description: "UAE is a Federation of 7 Emirates consisting of Abu Dhabi (which serves as the capital), Ajman, Dubai, Fujairah, Ras Al Khaimah, Sharjah and Umm Al Quwain. Rules and regulations for visa documentation and emigration process are the same in these seven Emirates",
         content: <>
             <p>UAE is a Federation of 7 Emirates consisting of Abu Dhabi (which serves as the capital), Ajman, Dubai, Fujairah, Ras Al Khaimah, Sharjah and Umm Al Quwain. Rules and regulations for visa documentation and emigration process are the same in these seven Emirates.</p>
             <br />
@@ -88,8 +88,8 @@ export const embassyAttestationContent = [
         </>
     },
     {
-        slug: "saudi-attestation",
-        title: "Saudi Attestation",
+        slug: "saudi-attestation", title: "Saudi Attestation", heading: "Saudi Attestation",
+        description: "Saudi Arabia, officially the Kingdom of Saudi Arabia is a country on the Arabian Peninsula in Western Asia. When a person plans to migrate to Saudi Arabia for study or employment purposes it is mandatory to attest your documents from the Saudi embassy. Saudi Arabia needs compulsory Saudi Embassy Attestation. All Indian educational and Non educational documents which are intended to be used in Saudi need to be attested from the Saudi embassy / Saudi consulate in India.",
         content: <>
             <p>Saudi Arabia, officially the Kingdom of Saudi Arabia is a country on the Arabian Peninsula in Western Asia. When a person plans to migrate to Saudi Arabia for study or employment purposes it is mandatory to attest your documents from the Saudi embassy. Saudi Arabia needs compulsory Saudi Embassy Attestation. All Indian educational and Non educational documents which are intended to be used in Saudi need to be attested from the Saudi embassy / Saudi consulate in India.</p>
             <Heading>Why document should be attested from the Saudi Embassy?</Heading>
@@ -131,8 +131,8 @@ export const embassyAttestationContent = [
         </>
     },
     {
-        slug: "qatar-attestation",
-        title: "Qatar Attestation",
+        slug: "qatar-attestation", title: "Qatar Attestation", heading: "Qatar Attestation",
+        description: "Qatar Embassy attestation is the process by which originality of your certificate/document is verified by certified authorities of Qatar with their seal and signature. By the attestation process it is stated by the Indian Government that the particular Certificate is genuine.",
         content: <>
             <p>Qatar Embassy attestation is the process by which originality of your certificate/document is verified by certified authorities of Qatar with their seal and signature. By the attestation process it is stated by the Indian Government that the particular Certificate is genuine.</p>
             <Heading>Purpose of Qatar Embassy Attestation</Heading>
@@ -196,8 +196,8 @@ export const embassyAttestationContent = [
         </>
     },
     {
-        slug: "malaysia-attestation",
-        title: "Malaysian Attestation",
+        slug: "malaysia-attestation", title: "Malaysian Attestation", heading: "Malaysian Attestation",
+        description: "Malaysia is a Southeast Asian country including parts of the Malay Peninsula and the Island of Borneo. The state of Malaysia demands its own embassy attestation on documents from other countries to approve its originality. they have Splitted their consulate services in Delhi, Mumbai and Chennai. Malaysian Embassy attestation is the process of verification of your document/certificate by the Ministry of External affairs and Malaysian Embassy to certify its genuinity.",
         content: <>
             <p>Malaysia is a Southeast Asian country including parts of the Malay Peninsula and the Island of Borneo. The state of Malaysia demands its own embassy attestation on documents from other countries to approve its originality. they have Splitted their consulate services in Delhi, Mumbai and Chennai. Malaysian Embassy attestation is the process of verification of your document/certificate by the Ministry of External affairs and Malaysian Embassy to certify its genuinity.</p>
             <Heading>Purpose of Malaysian Embassy Attestation</Heading>
@@ -248,8 +248,8 @@ export const embassyAttestationContent = [
         </>
     },
     {
-        slug: "kuwait-attestation",
-        title: "Kuwait Attestation",
+        slug: "kuwait-attestation", title: "Kuwait Attestation", heading: "Kuwait Attestation",
+        description: "Kuwait, officially the State of Kuwait, is a country in Western Asia, situated in the northern edge of Eastern Arabia. The State of Kuwait demands their embassy attestation on original certificates when one plans to migrate. In India, an Embassy is working for the Documentation process.",
         content: <>
             <p>Kuwait, officially the State of Kuwait, is a country in Western Asia, situated in the northern edge of Eastern Arabia. The State of Kuwait demands their embassy attestation on original certificates when one plans to migrate. In India, an Embassy is working for the Documentation process.</p>
             <br />
@@ -296,8 +296,8 @@ export const embassyAttestationContent = [
         </>
     },
     {
-        slug: "baharain-attestation",
-        title: "Baharain Attestation",
+        slug: "baharain-attestation", title: "Baharain Attestation", heading: "Baharain Attestation",
+        description: "Bahrain officially the Kingdom of Bahrain is an island country in Western Asia. It is situated on the Persian Gulf, and comprises a small archipelago made up of 50 natural islands and 33 artificial islands, centered on Bahrain Island which makes up around 83 percent of the country&apos;s landmass.",
         content: <>
             <p>Bahrain officially the Kingdom of Bahrain is an island country in Western Asia. It is situated on the Persian Gulf, and comprises a small archipelago made up of 50 natural islands and 33 artificial islands, centered on Bahrain Island which makes up around 83 percent of the country&apos;s landmass.</p>
             <br />
@@ -363,8 +363,8 @@ export const embassyAttestationContent = [
         </>
     },
     {
-        slug: "other-attestation",
-        title: "Other Attestation",
+        slug: "other-attestation", title: "Other Attestation", heading: "Other Attestation",
+        description: "Afghanistan, Algeria, Angola, Bangladesh, Benin, Burkina Faso, Cambodia, Cameroon, Canada, China, Congo Republic, Congo Democratic, Ivory Coast, Cuba, Egypt, Eritrea, Ethiopia, Ghana, Guinea, Haiti, Iran, Iraq, Jamaica, Jordan, Kenya, Kuwait, Laos, Lebanon, Libya, Macedonia, Madagascar, Mali, Mauritania, Mozambique, Nepal, Niger, Nigeria, Pakistan, Palestine, Rwanda, Saudi Arabia, Senegal, Sierra Leone, Singapore, Sri Lanka, Sudan, Syria, Taiwan, Tanzania, Togo, Thailand, Turkmenistan, Uganda, Vietnam, Yemen, Zambia, Zimbabwe All these countries which are not members of Hague Convention demands their own embassy attestation for validating documents from other countries. Each Embassy follows their own rules, regulations and procedures for Embassy attestation. Time period required to complete the attestation procedures also varies with the Embassies.",
         content: <>
             <p>Afghanistan, Algeria, Angola, Bangladesh, Benin, Burkina Faso, Cambodia, Cameroon, Canada, China, Congo Republic, Congo Democratic, Ivory Coast, Cuba, Egypt, Eritrea, Ethiopia, Ghana, Guinea, Haiti, Iran, Iraq, Jamaica, Jordan, Kenya, Kuwait, Laos, Lebanon, Libya, Macedonia, Madagascar, Mali, Mauritania, Mozambique, Nepal, Niger, Nigeria, Pakistan, Palestine, Rwanda, Saudi Arabia, Senegal, Sierra Leone, Singapore, Sri Lanka, Sudan, Syria, Taiwan, Tanzania, Togo, Thailand, Turkmenistan, Uganda, Vietnam, Yemen, Zambia, Zimbabwe All these countries which are not members of Hague Convention demands their own embassy attestation for validating documents from other countries. Each Embassy follows their own rules, regulations and procedures for Embassy attestation. Time period required to complete the attestation procedures also varies with the Embassies.</p>
         </>
@@ -373,7 +373,8 @@ export const embassyAttestationContent = [
 
 export const attestationContent = [
     {
-        slug: "certificates-attestation", title: "Certificates Attestation",
+        slug: "certificates-attestation", title: "Certificates Attestation", heading: "Certificates Attestation",
+        description: "Attestation is a legal acknowledgment of evaluating the authenticity of educational and non-educational documents from home country to certify it’s genuinity.Normally Indian Government provides two types of attestation in Indian Certificates. One is Apostille attestation by MEA i.e. Ministry of External affairs and the other one is by the concerned Embassy of the hosting country.",
         content: <>
             <p>Attestation is a legal acknowledgment of evaluating the authenticity of educational and non-educational documents from home country to certify it’s genuinity.Normally Indian Government provides two types of attestation in Indian Certificates. One is Apostille attestation by MEA i.e. Ministry of External affairs and the other one is by the concerned Embassy of the hosting country.</p>
             <br />
@@ -396,7 +397,8 @@ export const attestationContent = [
         </>
     },
     {
-        slug: "apostle-attestation", title: "Apostle Attestation",
+        slug: "apostle-attestation", title: "Apostle", heading: "Apostle Attestation",
+        description: "Apostille is a certificate which verifies and confirms the seat and signature of the person who authenticates the document. It is admissible in 104 countries, in which certificates are legalized in an appropriate form that relate to the Hague Convention. Apostille stamp is a computer generated sticker stamp in square shape, fixed on the opposite of certificates with different ID numbers, so that any associate nation of The Hague convention can verify its legitimacy online.",
         content: <>
             <p>Apostille is a certificate which verifies and confirms the seat and signature of the person who authenticates the document. It is admissible in 104 countries, in which certificates are legalized in an appropriate form that relate to the Hague Convention. Apostille stamp is a computer generated sticker stamp in square shape, fixed on the opposite of certificates with different ID numbers, so that any associate nation of The Hague convention can verify its legitimacy online.</p>
             <br />
@@ -461,9 +463,9 @@ export const attestationContent = [
             <Ending />
         </>
     },
-
     {
-        slug: "mea-attestation", title: "MEA Attestation",
+        slug: "mea-attestation", title: "MEA", heading: "MEA Attestation",
+        description: "MEA(Ministry of External Affairs) is a central government body which communicates international affairs.Only the MEA can do the Apostille attestation and Embassy approved attestation on the certificates. The documents which have been used in other nations require the MEA Attestation should be first authenticated by designated authorities of State/Union territory from where the document is issued.",
         content: <>
             <p>MEA(Ministry of External Affairs) is a central government body which communicates international affairs.Only the MEA can do the Apostille attestation and Embassy approved attestation on the certificates. The documents which have been used in other nations require the MEA Attestation should be first authenticated by designated authorities of State/Union territory from where the document is issued.</p>
             <Heading>Criteria to get MEA Attestation</Heading>
@@ -484,7 +486,8 @@ export const attestationContent = [
         </>
     },
     {
-        slug: "marriage-certificate-attestation", title: "Marriage Certificate Attestation",
+        slug: "marriage-certificate-attestation", title: "Marriage Certificate", heading: "Marriage Certificate Attestation",
+        description: "A marriage certificate is an official document stating that two people are married. In India, marriages are registered under, Hindu Marriage Act, Common Marriage Rules and Special Marriage Act. Marriage certificate is a legal record that states that the person is legitimately married and thus becomes a proof of relationship status. Marriage certificate includes details of couples like name, age, address, profession etc. and place, date of the marriage, issuing authority etc. Attestation on the marriage certificate becomes mandatory when a person is travelling to a foreign country with spouse. Marriage certificate attestation is a process of verification of marriage certificate for international purposes by concerned authorities.",
         content: <>
             <p>A marriage certificate is an official document stating that two people are married. In India, marriages are registered under, Hindu Marriage Act, Common Marriage Rules and Special Marriage Act. Marriage certificate is a legal record that states that the person is legitimately married and thus becomes a proof of relationship status. Marriage certificate includes details of couples like name, age, address, profession etc. and place, date of the marriage, issuing authority etc. Attestation on the marriage certificate becomes mandatory when a person is travelling to a foreign country with spouse. Marriage certificate attestation is a process of verification of marriage certificate for international purposes by concerned authorities.</p>
             <Heading>Why marriage Certificate attestation?</Heading>
@@ -509,7 +512,8 @@ export const attestationContent = [
         </>
     },
     {
-        slug: "birth-certificate-attestation", title: "Birth Certificate Attestation",
+        slug: "birth-certificate-attestation", title: "Birth Certificate", heading: "Birth Certificate Attestation",
+        description: "A birth certificate is an official document which contains details regarding birth of a child.It is the fundamental certificate of a person containing details of person like name, birthplace, sex, date of birth, parentage, etc.",
         content: <>
             <p>A birth certificate is an official document which contains details regarding birth of a child.It is the fundamental certificate of a person containing details of person like name, birthplace, sex, date of birth, parentage, etc.</p>
             <Heading>Birth Certificate Attestation –</Heading>
@@ -534,7 +538,8 @@ export const attestationContent = [
         </>
     },
     {
-        slug: "norka-attestation", title: "Norka Attestation",
+        slug: "norka-attestation", title: "Norka", heading: "Norka Attestation",
+        description: "The Non Resident Keralites Affairs (NORKA) is a division of the Government of Kerala which was established on December 6, 1996 for addressing and resolving the issues of non-resident Keralites It is the designated authority for the attestation of educational document originated in Kerala. It implements welfare programs and it renders additional assistance to Keralites. The objective of NORKA is tracing the missing keralites abroad, and they are providing HRD attestation facility for the Educational certificates. This HRD attestation process is known as Norka attestation.",
         content: <>
             <p>The Non Resident Keralites Affairs (NORKA) is a division of the Government of Kerala which was established on December 6, 1996 for addressing and resolving the issues of non-resident Keralites It is the designated authority for the attestation of educational document originated in Kerala. It implements welfare programs and it renders additional assistance to Keralites. The objective of NORKA is tracing the missing keralites abroad, and they are providing HRD attestation facility for the Educational certificates. This HRD attestation process is known as Norka attestation.</p>
             <br />
@@ -589,7 +594,8 @@ export const attestationContent = [
         </>
     },
     {
-        slug: "hrd-attestation", title: "HRD Attestation",
+        slug: "hrd-attestation", title: "HRD", heading: "HRD Attestation",
+        description:"Human Resource Development Attestation is an authentication process on your educational certificates from the general education department.",
         content: <>
             <p><b>Human Resource Development (HRD)</b> -This is an authentication process on your educational certificates from the general education department.</p>
             <br />
@@ -620,7 +626,8 @@ export const attestationContent = [
         </>
     },
     {
-        slug: "kerala-hrd", title: "KERALA HRD (NORKA ATTESTATION)",
+        slug: "kerala-hrd", title: "Kerala HRD", heading: "Kerala HRD (NORKA Attestation)",
+        description:"In the state of Kerala, the NORKA organization will do the HRD as well. Totally three Norka branches are working regularly in Kerala for provides Norka (HRD) attestation - Trivandrum, Kozhikode and Ernakulam.and They will only allowing direct candidate or blood relatives of the candidates. We Skyroots Attestation will helps to fix appointment in Norka for the authentication process.",
         content: <>
             <p>In the state of Kerala, the NORKA organization will do the HRD as well. Totally three Norka branches are working regularly in Kerala for provides Norka (HRD) attestation - Trivandrum, Kozhikode and Ernakulam.and They will only allowing direct candidate or blood relatives of the candidates. We Skyroots Attestation will helps to fix appointment in Norka for the authentication process.</p>
             <br />
@@ -641,7 +648,8 @@ export const attestationContent = [
         </>
     },
     {
-        slug: "home-dept-attestation", title: "Home Dept. Attestation",
+        slug: "home-dept-attestation", title: "Home Dept.", heading: "Home Department Attestation",
+        description: "The documents which have to be used in other national to get permanent residence visa, adding and deletion of name in the passport, Home Department Attestation are required. It is the work of every state General Administration Department (GAD) where documents belong. Normally Non educational certificates like Marriage certificate, birth certificate, death certificate, affidavits, Power of attorneys etc..are applying for this Home department process.",
         content: <>
             <p>The documents which have to be used in other national to get permanent residence visa, adding and deletion of name in the passport, Home Department Attestation are required. It is the work of every state General Administration Department (GAD) where documents belong. Normally Non educational certificates like Marriage certificate, birth certificate, death certificate, affidavits, Power of attorneys etc..are applying for this Home department process.</p>
             <br />
@@ -669,7 +677,8 @@ export const attestationContent = [
         </>
     },
     {
-        slug: "commercial-documents", title: "Commercial Documents Attestation",
+        slug: "commercial-documents", title: "Commercial Documents", heading: "Commercial Documents Attestation",
+        description: "Commercial documents are written records of commercial transactions describing various aspects of those transactions like orders, invoices, shipping documents, transport papers, and certificates of origin etc. Attestations from the respective authorities are mandatory to make these documents valid for international transactions. Commercial document attestation comes under the category of non-educational certificates. Attestation on Invoice, Health certificates, Certificate of Incorporation etc. is necessary for exports and imports of goods internationally. Affidavits and power of attorney should be attested once you have to sell and buy properties abroad also for the cancellation of partnerships. Other purposes is to open bank accounts , to start up a business",
         content: <>
             <p>Commercial documents are written records of commercial transactions describing various aspects of those transactions like orders, invoices, shipping documents, transport papers, and certificates of origin etc. Attestations from the respective authorities are mandatory to make these documents valid for international transactions. Commercial document attestation comes under the category of non-educational certificates. Attestation on Invoice, Health certificates, Certificate of Incorporation etc. is necessary for exports and imports of goods internationally. Affidavits and power of attorney should be attested once you have to sell and buy properties abroad also for the cancellation of partnerships. Other purposes is to open bank accounts , to start up a business</p>
             <br />
@@ -691,13 +700,13 @@ export const attestationContent = [
                 <li>&#8226; Embassy attestation or Apostille attestation</li>
             </ul>
             <br />
-
             <p>The documents are sealed and signed by the concerned authorities. Once every step of verification is completed, the documents are considered authentic. When someone is traveling for business, trade, or property-related matters, he/she has to do the process of commercial document attestation. The documents have to be original to do the process of attestation. This is mainly to ensure the safety of the destination country from illegal documentation. Commercial document attestation can also be said to be a safety measure of legalization. There can be many legal issues in the future if the rules of verification are not followed properly. So it is important to complete the process of commercial document attestation to prevent any problems regarding the legalization of documents.</p>
             <Ending />
         </>
     },
     {
-        slug: "educational-documents", title: "Educational Documents Attestation",
+        slug: "educational-documents", title: "Educational Documents", heading: "Educational Documents Attestation",
+        description: "A degree certificate or diploma is awarded by a university/ college or any other educational institution as a person had successfully completed a course thus is a certificate to prove ones educational qualification. A degree certificate is the basic document for higher education and employment. Degree certificate is to show the academic qualification of an individual. It is mandatory to get your degree certificate attested for higher studies or for employment purposes abroad. And Degree certificate attestation becomes mandatory as the process verifies and affirms originality of the certificate.",
         content: <>
             <p>A degree certificate or diploma is awarded by a university/ college or any other educational institution as a person had successfully completed a course thus is a certificate to prove ones educational qualification. A degree certificate is the basic document for higher education and employment. Degree certificate is to show the academic qualification of an individual. It is mandatory to get your degree certificate attested for higher studies or for employment purposes abroad. And Degree certificate attestation becomes mandatory as the process verifies and affirms originality of the certificate.</p>
             <Heading>What are the purposes of degree certificate attestation?</Heading>
@@ -725,7 +734,8 @@ export const attestationContent = [
         </>
     },
     {
-        slug: "power-of-attorney", title: "POWER OF ATTORNEY OR AFFIDAVIT ATTESTATION",
+        slug: "power-of-attorney", title: "Power of Attorney", heading: "Power of Attorney or Affidavit Attestation",
+        description: "A power of attorney is a legally binding document or authorization in written format to represent or act on a person's behalf in private affairs, business, or some other legal matter. The power of attorney is mainly used when one become ill or disabled, or if the person is residing in a another country and can&apos;t be present to sign legal or financial documents. In order to make it valid for international transactions, it should be attested from concerned authority or respective embassy. Power of Attorneys were prepared for different purposes internationally like giving authorization to another person ;",
         content: <>
             <p>A power of attorney is a legally binding document or authorization in written format to represent or act on a person&apos;s behalf in private affairs, business, or some other legal matter. The power of attorney is mainly used when one become ill or disabled, or if the person is residing in a another country and can&apos;t be present to sign legal or financial documents. In order to make it valid for international transactions, it should be attested from concerned authority or respective embassy. Power of Attorneys were prepared for different purposes internationally like giving authorization to another person ;</p>
             <br />
@@ -758,7 +768,8 @@ export const attestationContent = [
         </>
     },
     {
-        slug: "sdm-chamber", title: "SDM & CHAMBER ATTESTATION",
+        slug: "sdm-chamber", title: "SDM & Chamber", heading: "SDM & CHAMBER ATTESTATION",
+        description: "SDM means Sub-Divisional Magistrate & SDM Attestation means getting a stamp from SDM(Sub-Divisional Magistrate) .It is a document legalization process to attest your educational and non-educational documents. This attestation is done by the Sub-Divisional Magistrate in Delhi. It is an authentication process as a part of verification in India. Notary attestation is mandatory in order to get your documents attested from SDM. While applying for an employment visa or travel visa it is mandatory to get your documents verified and attested from the Ministry of Foreign affairs or respective Embassy. SDM attestation is the compulsory prerequisite for attestation from MEA and Embassy.",
         content: <>
             <p>SDM means Sub-Divisional Magistrate & SDM Attestation means getting a stamp from SDM(Sub-Divisional Magistrate) .It is a document legalization process to attest your educational and non-educational documents. This attestation is done by the Sub-Divisional Magistrate in Delhi. It is an authentication process as a part of verification in India. Notary attestation is mandatory in order to get your documents attested from SDM. While applying for an employment visa or travel visa it is mandatory to get your documents verified and attested from the Ministry of Foreign affairs or respective Embassy. SDM attestation is the compulsory prerequisite for attestation from MEA and Embassy.</p>
             <br />
@@ -820,7 +831,8 @@ export const attestationContent = [
 
 export const moreContent = [
     {
-        slug: "uae-pcc", title: "PCC From UAE",
+        slug: "uae-pcc", title: "UAE PCC", heading: "PCC From UAE",
+        description: "Police clearance certificate (PCC) is a service provided by the Criminal Police General Directorate by which a certificate is issued in Arabic or English (upon request) for a person stating that the applicant has no criminal records, and was committed to the law, and has never violated honor and integrity during his/her stay in the UAE. PCC from UAE is obtained in order to present it to authorities of other countries; for work, study, immigration, obtaining a license, or any such matters. It is a certification obtained from police to prove their good conduct in the United Arab Emirates simply a ‘Good conduct Certificate’ from the UAE government. UAE PCC is in digital form which can be utilized for any of migration requirements.",
         content: <>
             <p>Police clearance certificate (PCC) is a service provided by the Criminal Police General Directorate by which a certificate is issued in Arabic or English (upon request) for a person stating that the applicant has no criminal records, and was committed to the law, and has never violated honor and integrity during his/her stay in the UAE. PCC from UAE is obtained in order to present it to authorities of other countries; for work, study, immigration, obtaining a license, or any such matters. It is a certification obtained from police to prove their good conduct in the United Arab Emirates simply a ‘Good conduct Certificate’ from the UAE government. UAE PCC is in digital form which can be utilized for any of migration requirements.</p>
             <Heading>Process 1</Heading>
@@ -849,7 +861,8 @@ export const moreContent = [
         </>
     },
     {
-        slug: "oman-pcc", title: "PCC From OMAN",
+        slug: "oman-pcc", title: "Oman PCC", heading: "PCC From OMAN",
+        description: "Oman PCC is an official certificate assigned by the Royal Oman police of Sultanate of Oman, stating that the individual has not committed any crime hazardous to the nation&apos;s security, and was obliged to standard law of Oman during his/her stay in Oman.That is, PCC from Oman to prove that the person has no criminal background in Oman. It is issued to residents of Oman, who have resided more than a year. It is a mandatory requirement when a person resided in Oman plans to migrate to any other nation for study or employment purposes. The hosting country demands the PCC in order to safeguard the integrity of their nation from any criminal attack or any external aggression.",
         content: <>
             <p>Oman PCC is an official certificate assigned by the Royal Oman police of Sultanate of Oman, stating that the individual has not committed any crime hazardous to the nation&apos;s security, and was obliged to standard law of Oman during his/her stay in Oman.That is, PCC from Oman to prove that the person has no criminal background in Oman. It is issued to residents of Oman, who have resided more than a year. It is a mandatory requirement when a person resided in Oman plans to migrate to any other nation for study or employment purposes. The hosting country demands the PCC in order to safeguard the integrity of their nation from any criminal attack or any external aggression.</p>
             <Heading>Required Documents</Heading>
@@ -865,7 +878,8 @@ export const moreContent = [
         </>
     },
     {
-        slug: "pcc", title: "Attestation For Police Clearence Certificate (PCC)",
+        slug: "pcc", title: "PCC", heading: "Attestation For Police Clearence Certificate (PCC)",
+        description: "PCC- Police clearance certificate as per the name is the certificate verifying the data that the person is not having any criminal records by the nation in which the person is a citizen. In Kerala, the certificate will be issued through Passport Seva Kendra.",
         content: <>
             <p>PCC- Police clearance certificate as per the name is the certificate verifying the data that the person is not having any criminal records by the nation in which the person is a citizen. In Kerala, the certificate will be issued through Passport Seva Kendra.</p>
             <Heading>How to apply for Indian PCC</Heading>
@@ -894,7 +908,8 @@ export const moreContent = [
         </>
     },
     {
-        slug: "visa-stamping", title: "Visa Stamping",
+        slug: "visa-stamping", title: "Visa Stamping", heading: "Visa Stamping",
+        description: "Visa, an official entry authorization to enter the territory and have to be used within a certain period of time. The authorization may be a document subject to permission of an immigration official at the time of entry, commonly it is a stamp endorsed in applicant’s passport.",
         content: <>
             <p>Visa, an official entry authorization to enter the territory and have to be used within a certain period of time. The authorization may be a document subject to permission of an immigration official at the time of entry, commonly it is a stamp endorsed in applicant’s passport.</p>
             <br />
@@ -918,7 +933,8 @@ export const moreContent = [
         </>
     },
     {
-        slug: "translations", title: "Translation",
+        slug: "translations", title: "Translation", heading: "Translations",
+        description: "Translation of documents are necessary for some attestation and legal matters in certain countries to which candidates are travelling either for job/Education or any other commercial, legal, advertising, marketing, medical, technical, financial and scientific business domains. Translators have to translate the document according to the languages and each has its own exclusive localized terms; lexes and terminologies.",
         content: <>
             <Heading>Required Documents</Heading>
             <p>Translation of documents are necessary for some attestation and legal matters in certain countries to which candidates are travelling either for job/Education or any other commercial, legal, advertising, marketing, medical, technical, financial and scientific business domains. Translators have to translate the document according to the languages and each has its own exclusive localized terms; lexes and terminologies.</p>
@@ -930,7 +946,8 @@ export const moreContent = [
         </>
     },
     {
-        slug: "wes-iqas-verification", title: "WES Verification",
+        slug: "wes-iqas-verification", title: "WES Verification", heading: "WES IQAS Verification",
+        description: "WES is an Organization, which evaluates foreign credentials to match with US and Canada 4 point grading system. It is a firm devoted to attain academically and professional goals of students and professionals in their respective domains. Based on 100% scale most of the foreign university measure your grades. WES would convert your grade from Indian institution to 4 point scale US or Canada grading system and send the results to the University for your Application Evaluation.",
         content: <>
             <p>WES is an Organization, which evaluates foreign credentials to match with US and Canada 4 point grading system. It is a firm devoted to attain academically and professional goals of students and professionals in their respective domains. Based on 100% scale most of the foreign university measure your grades. WES would convert your grade from Indian institution to 4 point scale US or Canada grading system and send the results to the University for your Application Evaluation.</p>
             <Heading>Types of WES Evaluation</Heading>
@@ -954,7 +971,8 @@ export const moreContent = [
         </>
     },
     {
-        slug: "notary", title: "Notary",
+        slug: "notary", title: "Notary", heading: "Notary",
+        description: "Notary, aninitial procedure which is done before authentication. The signature on a document only by a legal public notary is the act of Notarization. In attestation and legalization notarization create a document legalized for further proceeding. Document authenticated for all the attestation including Home Department or Human Resource Department (HRD), Ministry of external affairs (MEA) and embassy legalization. For further authentication notarization is compulsory.",
         content: <>
             <p>Notary, aninitial procedure which is done before authentication. The signature on a document only by a legal public notary is the act of Notarization. In attestation and legalization notarization create a document legalized for further proceeding. Document authenticated for all the attestation including Home Department or Human Resource Department (HRD), Ministry of external affairs (MEA) and embassy legalization. For further authentication notarization is compulsory.</p>
         </>

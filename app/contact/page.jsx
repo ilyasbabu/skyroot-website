@@ -2,6 +2,14 @@ import Map from '@/components/Map'
 import Image from 'next/image'
 import React from 'react'
 
+export const metadata = {
+    title: "Contact",
+    description: "For more details whatsapp us: 9567397477 or call us on : 04844859555",
+    alternates:{
+        canonical:"/contact"
+    },
+}
+
 const page = () => {
     return (
         <>
@@ -12,7 +20,7 @@ const page = () => {
                             <h2 className="text-4xl font-bold leadi lg:text-5xl">Let&apos;s talk!</h2>
                             <div className="text-gray-600">Should you have any questions regarding our service, do not hesitate to reach out.</div>
                         </div>
-                        <Image width={500} height={500} src={"/images/contact.jpg"} alt="Contact" className="p-6 w-full mix-blend-multiply" />
+                        <Image width={500} height={500} src={"/images/contact.jpg"} priority={true} alt="Contact" className="p-6 w-full mix-blend-multiply" />
                     </div>
                     <form className="flex flex-col justify-center">
                         <div>

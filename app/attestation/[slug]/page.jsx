@@ -1,6 +1,16 @@
 import { attestationContent } from '@/app/contents'
 import { notFound } from 'next/navigation'
 
+export async function generateMetadata({params}){
+    const data = attestationContent.find(item => item.slug === params.slug)
+    return {
+        title: data.title,
+        description: data.description,
+        alternates:{
+            canonical:"/attestation/"+params.slug
+        },
+    }
+}
 
 const page = (props) => {
     const slug = props.params.slug

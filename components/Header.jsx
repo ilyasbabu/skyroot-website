@@ -131,8 +131,8 @@ const Header = () => {
                         links={embassyAttestationMenus}
                     />
                 </ul>
-                <Link rel="noopener noreferrer" href="/" aria-label="Back to homepage" className="flex items-center p-2">
-                    <Image src={"/images/logo.png"} width={100} height={100} alt="logo" />
+                <Link rel="noopener noreferrer" href="/" aria-label="Back to homepage" className="flex items-center ">
+                    <Image src={"/images/logo.png"} priority={true} width={100} height={100} alt="logo" className="" />
                 </Link>
                 <ul className="items-stretch hidden space-x-3 md:flex">
                     <DropMenu name="Attestaion"

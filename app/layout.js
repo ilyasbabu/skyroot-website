@@ -7,8 +7,13 @@ import NextTopLoader from 'nextjs-toploader';
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Skyroots Attestation',
+  // metadataBase: new URL ('https://www.skyroots.co.in/'),
+  title:{
+    default: 'Skyroots Attestation',
+    template: '%s | Skyroots'
+  },
   description: 'Skyroots offers you genuine attestation services for educational, non-educational and commercial certificates. Talk to our experts - 9567397477.',
+  keywords:["certificate attestation", "attestation", "apostille", "apostille services", "attestation for uae", "attestation for kuwait", "attestation for qatar", "embassy attestation for saudi", "apostille for oman", "pcc attestation", "police clearance certificate attestation", "education certificate attestation", "wes", "wes for canada", "wes verification", "hrd attestation", "translation", "home department"]
 }
 
 export default function RootLayout({ children }) {

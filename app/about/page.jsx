@@ -1,6 +1,14 @@
 import Image from 'next/image'
 import React from 'react'
 
+export const metadata = {
+    title: "About",
+    description: "Skyroots provide assured administrative assistance and service for genuine attestation of your valuable documents with safe handling and prompt delivery.",
+    alternates:{
+        canonical:"/about"
+    },
+}
+
 const page = () => {
     return (
         <>
@@ -13,7 +21,7 @@ const page = () => {
                     <div className="p-4 lg:p-8 bg-gray-100 text-gray-800">
                         <div className="container mx-auto space-y-12">
                             <div className="flex flex-col overflow-hidden rounded-md shadow-sm lg:flex-row">
-                                <Image src={"/images/about.jpg"} height={500} width={500} alt="About" className="h-80 bg-gray-500 object-cover aspect-video" />
+                                <Image src={"/images/about.jpg"} height={500} width={500} alt="About" priority={true} className="h-80 bg-white object-cover aspect-video" />
                                 <div className="flex flex-col justify-center flex-1 p-6 bg-gray-50">
                                     <p className="my-6 text-gray-600">Skyroots provide assured administrative assistance and service for genuine attestation of your valuable documents with safe handling and prompt delivery.</p>
                                     <p className="my-6 text-gray-600">At skyroots our primary target is to provide reliable and professional service on par with the international standards at affordable and competative rates. We currently provide assistance with Embassy attestation HRD,MEA etc.</p>

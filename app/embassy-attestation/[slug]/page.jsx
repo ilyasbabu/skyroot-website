@@ -1,6 +1,16 @@
 import { embassyAttestationContent } from '@/app/contents'
 import { notFound } from 'next/navigation'
 
+export async function generateMetadata({params}){
+    const data = embassyAttestationContent.find(item => item.slug === params.slug)
+    return {
+        title: data.title,
+        description: data.description,
+        alternates:{
+            canonical:"/embassy-attestation/"+params.slug
+        },
+    }
+}
 
 const page = (props) => {
     const slug = props.params.slug
@@ -8,8 +18,6 @@ const page = (props) => {
     if (!data) {
         notFound()
     }
-
-
     return (
         <section className='p-5 min-h-[80vh] md:mx-36 lg:mx-56'>
             <nav aria-label="breadcrumb" className="w-full text-xs text-gray-800">
@@ -27,7 +35,7 @@ const page = (props) => {
                     </li>
                 </ol>
             </nav>
-            <h1 className="text-2xl font-semibold pb-2 md:pb-4">{data.title}</h1>
+            <h1 className="text-2xl font-semibold pb-2 md:pb-4">{data.heading}</h1>
             <div className="text-base mb-5">{data.content}</div>
         </section>
     )
