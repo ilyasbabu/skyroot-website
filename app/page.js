@@ -64,7 +64,7 @@ export default function Home() {
       <section className="bg-gray-100 text-gray-800">
         <div className="container max-w-6xl p-6 mx-auto space-y-6 sm:space-y-12">
           <div className="block max-w-sm gap-3 mx-auto sm:max-w-full group hover:no-underline focus:no-underline lg:grid lg:grid-cols-12 bg-gray-50">
-            <Image src="/images/3.jpg" alt="Certificate Attestation" width={500} height={500} className="object-cover w-full h-64 rounded sm:h-96 lg:col-span-7 bg-gray-500" />
+            <Image src="/images/3.webp" alt="Certificate Attestation" width={500} height={500} className="object-cover w-full h-64 rounded sm:h-96 lg:col-span-7 bg-gray-500" />
             <div className="p-6 space-y-2 lg:col-span-5">
               <Link href={"/attestation/certificates-attestation"} className="text-2xl font-semibold sm:text-4xl hover:underline">Certificate Attestation</Link>
               <p className='line-clamp-3 sm:line-clamp-6'>Attestation is a legal acknowledgment of evaluating the authenticity of educational and non-educational documents from home country to certify it’s genuinity.Normally Indian Government provides two types of attestation in Indian Certificates. One is Apostille attestation by MEA i.e. Ministry of External affairs and the other one is by the concerned Embassy of the hosting country.</p>
@@ -83,19 +83,19 @@ export default function Home() {
                   heading: "MEA / Appostile",
                   link:"/attestation/mea-attestation",
                   paragraph: "MEA(Ministry of External Affairs) is a central government body which communicates international affairs.Only the MEA can do the Apostille attestation and Embassy approved attestation on the certificates. The documents which have been used in other nations require the MEA Attestation should be first authenticated by designated authorities of State/Union territory from where the document is issued.",
-                  image: "/images/4a.jpeg",
+                  image: "/images/4a.webp",
                 },
                 {
                   heading: "PCC",
                   link:"/more/pcc",
                   paragraph: "PCC means Police Clearance Certificate is a certificate issued by respective police authority/ police experts regarding the criminal status of a person. It is a confirmation issued by the nation of origin that the person is devoid of any criminal records or in any violations of legal code and rules of the nation. Criminal records may incorporate arrest, capture, conviction and conceivably court procedures. Simply, Police clearance certificate is a good conduct certificate issued by police authority of the nation of origin. It is called variously in each nation as police certificate, good conduct certificates, judicial records extracts, PCC, etc. PCC is a document required when you are planning to travel abroad for education or employment purposes.",
-                  image: "/images/6a.jpeg",
+                  image: "/images/6a.webp",
                 },
                 {
                   heading: "Visa Stamping",
                   link:"/more/visa-stamping",
                   paragraph: "Visa, an official entry authorization to enter the territory and have to be used within a certain period of time. The authorization may be a document subject to permission of an immigration official at the time of entry, commonly it is a stamp endorsed in applicant’s passport.",
-                  image: "/images/5a.jpeg",
+                  image: "/images/5a.webp",
                 },
               ].map((item) => (
                 <div key={item.heading} className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-gray-50">
