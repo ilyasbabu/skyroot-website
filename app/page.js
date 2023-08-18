@@ -69,7 +69,7 @@ export default function Home() {
               <Link href={"/attestation/certificates-attestation"} className="text-2xl font-semibold sm:text-4xl hover:underline">Certificate Attestation</Link>
               <p className='line-clamp-3 sm:line-clamp-6'>Attestation is a legal acknowledgment of evaluating the authenticity of educational and non-educational documents from home country to certify it’s genuinity.Normally Indian Government provides two types of attestation in Indian Certificates. One is Apostille attestation by MEA i.e. Ministry of External affairs and the other one is by the concerned Embassy of the hosting country.</p>
               <Link className="inline-flex items-center space-x-2 text-sm text-sky-600" href="/attestation/certificates-attestation">
-                <span>Learn More</span>
+                <span>Learn More about Certificate Attestation</span>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-4 h-4">
                   <path fillRule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd"></path>
                 </svg>
@@ -99,12 +99,12 @@ export default function Home() {
                 },
               ].map((item) => (
                 <div key={item.heading} className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-gray-50">
-                  <Image role="presentation" width={500} height={500} className="object-cover w-full rounded h-44 bg-gray-500" alt={item.name} src={item.image} />
+                  <Image role="presentation" width={500} height={500} className="object-cover w-full rounded h-44 bg-gray-500" alt={item.heading} src={item.image} />
                   <div className="p-6 space-y-2">
                     <Link href={item.link} className="text-2xl font-semibold hover:underline">{item.heading}</Link>
                     <p className='line-clamp-3'>{item.paragraph}</p>
                     <Link href={item.link} className="inline-flex items-center space-x-2 text-sm text-sky-600">
-                      <span>Learn More</span>
+                      <span>Learn More about {item.heading}</span>
                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-4 h-4">
                         <path fillRule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd"></path>
                       </svg>

@@ -7,7 +7,7 @@ import NextTopLoader from 'nextjs-toploader';
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  // metadataBase: new URL ('https://www.skyroots.co.in/'),
+  metadataBase: new URL ('https://www.skyroots.co.in/'),
   title:{
     default: 'Skyroots Attestation',
     template: '%s | Skyroots'
